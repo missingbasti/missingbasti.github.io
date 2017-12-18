@@ -104,9 +104,13 @@ footer {
     padding-top: 15px
   }
 .accent{
-  color: #CC4425;
+  font-weight: 700;
   /*background: rgba(255,255,255,0.9);*/
   padding: 2px;
+}
+
+.orange-text{
+  color: #CC4425;
 }
 
 
