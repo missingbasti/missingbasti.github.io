@@ -1,0 +1,130 @@
+/* Global Reset
+------------------------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Clear Floated Elements
+------------------------------------------------------------------------------*/
+.clearfix:after, .sample .text:after, #postnormal .source:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+body {
+  background: #eaeaea;
+  box-sizing: border-box;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+footer {
+  padding: 50px;
+  text-align: center; }
+  footer p {
+    color: #555;
+    font: 400 16px/1 'open sans';
+    margin: 0; }
+    footer p a {
+      color: #555;
+      font-weight: 700; }
+      footer p a:hover {
+        color: #000; }
+
+.sample {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .sample .text {
+    /*margin: 0 auto;*/
+    /*margin-right: 20em;*/
+    /*padding: 100px 20px;*/
+    /*position: relative;*/
+    /*text-align: left;*/
+    /*width: 820px; */
+  }
+
+  .intro-text{
+    color: white;
+    vertical-align: baseline;
+    text-align: right;
+    font: 400 18px/20px Arvo;
+    padding-top: 15px
+  }
+.accent{
+  color: #CC4425;
+  /*background: rgba(255,255,255,0.9);*/
+  padding: 2px;
+}
+
+
+#headline {
+  /*background: #000; */
+  background: url("../img/bg_opening.jpg"), rgba(0,0,0,0.6);
+  background-blend-mode: overlay;
+  background-size: cover;}
+  #headline .text {
+    /*width: 50%; */
+    /*border-left: 8px solid #BFBFBF;*/
+  }
+  #headline h1 {
+    color: #fff;
+    font: 700 72px/74px Oswald;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  #headline h2 {
+    color: #fff;
+    font: 700 40px/48px Oswald;
+    text-transform: uppercase;}
