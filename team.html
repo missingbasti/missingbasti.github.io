@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <title>Google Web Fonts Typographic Project</title>
+  <link href="css/simple-grid.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+
+  <link href="css/custom3.css" rel="stylesheet">
+  <!-- <link href="css/timeline.css" rel="stylesheet"> -->
+
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.3.11/tiny-slider.css">
+
+  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.3.11/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.3.11/min/tiny-slider.js"></script>
+  <script src="js/float-panel.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
+
+  <script src="js/masonry.pkgd.min.js"></script>
+  <link rel="stylesheet" href="css/timeline.css">
+
+
+  <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+  <!-- 2 -->
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+
+
+</head>
+
+<body class="drawer drawer--top">
+  <header role="banner">
+    <button type="button" class="drawer-toggle map-toggle drawer-hamburger">
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <nav class="drawer-nav map-nav" style="height: 700px;">
+        <embed src="https://snazzymaps.com/embed/34717" width="100%" height="400px" style="border:none;"></embed>
+        <div id='timeline-embed' style="width: 100%; height: 300px"></div>
+    </nav>
+ </header>
+
+ <nav id="menu">
+  <div class="menuitm" >
+    <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
+    <a href="/">About</a>
+    <a href="team.html">Team</a>
+    <a href="eviction_def.html">Eviction</a>
+    <a href="resettlement_def.html">Resettlement</a>
+    <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
+  </div>
+
+</nav>
+
+<div id="fullpage">
+  <div class="container twelve section">            
+Team photos and reflections
+  </div>
+
+
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"></script>
+<!-- jquery & iScroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+<script src="js/timeline.min.js"></script>
+<script src="js/lightgallery.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<!--     <script>
+      var slider = tns({
+        container: '.my-slider',
+        items: 2,
+        // slideBy: 'page',
+        autoplay: true
+      });
+    </script> -->
+    <script>$("#map").load("https://snazzymaps.com/embed/34717");</script>
+    <script>
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          menu: '#menu',
+          navigation: true,
+          navigationPosition: 'right',
+          navigationTooltips: ['Introduction','Eviction Process','History','People','Place','Gallery'],
+          showActiveTooltip: true});
+      });
+      $(function(){
+        $('.js-timeline').Timeline();
+      });
+      $(document).ready(function() {
+          $('.drawer').drawer({
+            class: {
+              nav: 'map-nav',
+              toggle: 'map-toggle'
+            }
+          });
+        });
+      $(document).ready(function() {
+          $('.2drawer').drawer({
+            class: {
+              nav: 'time-nav',
+              toggle: 'time-toggle'
+            }
+          });
+        });
+    </script>
+
+    <script type="text/javascript">
+        // The TL.Timeline constructor takes at least two arguments:
+        // the id of the Timeline container (no '#'), and
+        // the URL to your JSON data file or Google spreadsheet.
+        // the id must refer to an element "above" this code,
+        // and the element must have CSS styling to give it width and height
+        // optionally, a third argument with configuration options can be passed.
+        // See below for more about options.
+        timeline = new TL.Timeline('timeline-embed',
+          'https://docs.google.com/spreadsheets/d/11T-Ps3iIe5wJmFg-yaZSGqvawe5OiVqpVqEnAx1tgUY/edit#gid=0');
+        </script>
+
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('.your-class').slick({
+              // adaptiveHeight: true,
+              accessibility: true,
+              dots: true,
+              // centerMode: true,
+              variableWidth: true
+            });
+          });
+        </script>
+        <script type="text/javascript">
+          $(document).ready(function() {
+            $("#lightgallery").lightGallery(); 
+          });
+        </script>
+        </html>
