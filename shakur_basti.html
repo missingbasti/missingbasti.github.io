@@ -10,7 +10,7 @@
 
 
 
-  <title>Google Web Fonts Typographic Project</title>
+  <title>Missing Basti</title>
   <link href="css/simple-grid.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
 
@@ -52,12 +52,12 @@
       <span class="drawer-hamburger-icon"></span>
     </button>
     <nav class="drawer-nav map-nav" style="height: 700px;">
-        <embed src="https://snazzymaps.com/embed/34717" width="100%" height="700px" style="border:none;"></embed>
+      <embed src="https://snazzymaps.com/embed/34717" width="100%" height="700px" style="border:none;"></embed>
     </nav>
     <nav class="section press-timeline" style="width: 100%; height: 60%;top: 60px; position: absolute; z-index: 1">
       <div class="row" id='timeline-embed' style="width: 100%;"></div>
     </nav>
- </header>
+  </header>
 
   <nav id="menu">
     <div class="menuitm" >
@@ -73,8 +73,6 @@
 
 
   <div id="fullpage">
-
-
     <div class="container twelve section">            
       <h1>Caught Between the Railways and Poverty </h1>
 
@@ -172,74 +170,6 @@
 <script src="js/timeline.min.js"></script>
 <script src="js/lightgallery.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
+<script src="js/site.js"></script>
 
-<!--     <script>
-      var slider = tns({
-        container: '.my-slider',
-        items: 2,
-        // slideBy: 'page',
-        autoplay: true
-      });
-    </script> -->
-    <script>$("#map").load("https://snazzymaps.com/embed/34717");</script>
-    <script>
-      $(document).ready(function() {
-        $('#fullpage').fullpage({
-          menu: '#menu',
-          navigation: true,
-          navigationPosition: 'right',
-          navigationTooltips: ['Introduction','Eviction Process','History','People','Place','Gallery'],
-          showActiveTooltip: true});
-      });
-      $(function(){
-        $('.js-timeline').Timeline();
-      });
-      $(document).ready(function() {
-        $('.drawer').drawer({
-          class: {
-            nav: 'map-nav',
-            toggle: 'map-toggle'
-          }
-        });
-      });
-      $(document).ready(function(){
-        $('.press-timeline').hide();
-      });
-
-      $( "#time-toggle" ).click(function() {
-        $('.press-timeline').slideToggle()
-      });
-      $( ".drawer-toggle" ).click(function() {
-        $('.press-timeline').hide();
-      });
-    </script>
-
-    <script type="text/javascript">
-        // The TL.Timeline constructor takes at least two arguments:
-        // the id of the Timeline container (no '#'), and
-        // the URL to your JSON data file or Google spreadsheet.
-        // the id must refer to an element "above" this code,
-        // and the element must have CSS styling to give it width and height
-        // optionally, a third argument with configuration options can be passed.
-        // See below for more about options.
-        timeline = new TL.Timeline('timeline-embed',
-          'https://docs.google.com/spreadsheets/d/11T-Ps3iIe5wJmFg-yaZSGqvawe5OiVqpVqEnAx1tgUY/edit#gid=0');
-        </script>
-
-        <script type="text/javascript">
-          $(document).ready(function(){
-            $('.your-class').slick({
-              // adaptiveHeight: true,
-              accessibility: true,
-              dots: true,
-              // centerMode: true,
-              variableWidth: true
-            });
-          });
-        </script>
-        <script type="text/javascript">
-          $(document).ready(function() {
-            $("#lightgallery").lightGallery(); 
-          });
-        </script>
-        </html>
+</html>

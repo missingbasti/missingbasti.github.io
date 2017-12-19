@@ -10,7 +10,7 @@
 
 
 
-  <title>Google Web Fonts Typographic Project</title>
+  <title>Missing Basti</title>
   <link href="css/simple-grid.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
 
@@ -52,30 +52,59 @@
       <span class="drawer-hamburger-icon"></span>
     </button>
     <nav class="drawer-nav map-nav" style="height: 700px;">
-        <embed src="https://snazzymaps.com/embed/34717" width="100%" height="400px" style="border:none;"></embed>
-        <div id='timeline-embed' style="width: 100%; height: 300px"></div>
+      <embed src="https://snazzymaps.com/embed/34717" width="100%" height="700px" style="border:none;"></embed>
     </nav>
- </header>
+    <nav class="section press-timeline" style="width: 100%; height: 60%;top: 60px; position: absolute; z-index: 1">
+      <div class="row" id='timeline-embed' style="width: 100%;"></div>
+    </nav>
+  </header>
 
- <nav id="menu">
-  <div class="menuitm" >
-    <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
-    <a href="/">About</a>
-    <a href="team.html">Team</a>
-    <a href="eviction_def.html">Eviction</a>
-    <a href="resettlement_def.html">Resettlement</a>
-    <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
+  <nav id="menu">
+    <div class="menuitm" >
+      <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
+      <a href="/">About</a>
+      <a href="#" id="time-toggle">Press Timeline</a>
+      <a href="team.html">Team</a>
+      <a href="eviction_def.html">Eviction</a>
+      <a href="resettlement_def.html">Resettlement</a>
+      <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
+    </div>
+  </nav>
+
+
+  <div id="fullpage">
+    <div class="container normal-text twelve section">            
+      <div class="row">
+        <div class="col-6">
+          <div class="row"><img class="profile" src="img/team/aditi.jpg"> &nbsp;<h2>Aditi</h2></div>
+          <div class="row ">What could be a greater indictment of planning than nearly 75% of the city living in housing that is apparently “unplanned”? Walking through the overwhelming densified Bastis of Delhi, encountering temporary, fragile and vulnerable housing materials, the absence of sanitation, waste, and sewage services; you are struck by the poverty of the residents and bound to think about the contrast in the livelihood conditions pertaining in the city. Undertaking a fact-finding mission on forced evictions carried out in Delhi with an ethnographic research work on the Evicted sites & resettlement colonies; you enter into an oblivion of scenarios, where the existence of these Bastis cannot be questioned. The identity of the people and the place is so profound that erasing them forcibly from the face of the city sounds shallow for causes such as urban development and beautification. The journey makes you realize that “Bastis are no problem but a solution for a city that boasts of the country’s second largest per capita income, has an ugly face tucked away in its innards.”
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row"><img class="profile" src="img/team/parth.jpg"> &nbsp;<h2>Parth</h2></div>
+          <div class="row">The Anti-Eviction Mapping Project - Delhi helps us to learn us about how the evictions taking place in the urban area and explains us how the people are left helpless and lonely after the demolition of their house. Through the SWS we gained the knowledge about the ground reality of the eviction sites by visiting various evited places and get to know how people are affected physically and mentally during and after eviction. What change happens after the eviction in their livelihood and how their lives changes after the process of the eviction.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container normal-text twelve section">            
+      <div class="row">
+        <div class="col-6">
+          <div class="row"><img class="profile" src="img/team/arkadipta.jpg"> &nbsp;<h2>Arkadipta</h2></div>
+          <div class="row ">Eviction is a process, not a decision that should be taken overnight. This is the first thing that this workshop has taught me. In our country, where capital greed has overpowered every sector of the society that we often forget to think about the lives of the people who get evicted in the name of capital driven development that does not serve the other half of our country. This course has not only made me understand how these people suffer during eviction but also the legalities associated with eviction. I think that there is a necessity to spread a strong message to all the sectors of the society about the unlawful acts which are being carried out in this process of eviction.   
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row"><img class="profile" src="img/team/kd.jpg"> &nbsp;<h2>Karan</h2></div>
+          <div class="row">As goes the famous saying, to understand a man's perspective you need to put yourself in his situation. Through this workshop I deeply understood the eviction process for slums in and around Delhi, their resettlement and the problems being faced by the people living their.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div>
-
-</nav>
-
-<div id="fullpage">
-  <div class="container twelve section">            
-Team photos and reflections
-  </div>
-
-
-</div>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -88,6 +117,8 @@ Team photos and reflections
 <script src="js/timeline.min.js"></script>
 <script src="js/lightgallery.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
 
 <!--     <script>
       var slider = tns({
@@ -104,28 +135,28 @@ Team photos and reflections
           menu: '#menu',
           navigation: true,
           navigationPosition: 'right',
-          navigationTooltips: ['Introduction','Eviction Process','History','People','Place','Gallery'],
+          navigationTooltips: ['Reflections'],
           showActiveTooltip: true});
       });
       $(function(){
         $('.js-timeline').Timeline();
       });
       $(document).ready(function() {
-          $('.drawer').drawer({
-            class: {
-              nav: 'map-nav',
-              toggle: 'map-toggle'
-            }
-          });
+        $('.drawer').drawer({
+          class: {
+            nav: 'map-nav',
+            toggle: 'map-toggle'
+          }
         });
+      });
       $(document).ready(function() {
-          $('.2drawer').drawer({
-            class: {
-              nav: 'time-nav',
-              toggle: 'time-toggle'
-            }
-          });
+        $('.2drawer').drawer({
+          class: {
+            nav: 'time-nav',
+            toggle: 'time-toggle'
+          }
         });
+      });
     </script>
 
     <script type="text/javascript">
