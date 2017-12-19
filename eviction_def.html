@@ -45,28 +45,29 @@
 
 
 </head>
-
 <body class="drawer drawer--top">
   <header role="banner">
     <button type="button" class="drawer-toggle map-toggle drawer-hamburger">
       <span class="drawer-hamburger-icon"></span>
     </button>
     <nav class="drawer-nav map-nav" style="height: 700px;">
-      <embed src="https://snazzymaps.com/embed/34717" width="100%" height="400px" style="border:none;"></embed>
-      <div id='timeline-embed' style="width: 100%; height: 300px"></div>
+        <embed src="https://snazzymaps.com/embed/34717" width="100%" height="700px" style="border:none;"></embed>
     </nav>
-  </header>
+    <nav class="section press-timeline" style="width: 100%; height: 60%;top: 60px; position: absolute; z-index: 1">
+      <div class="row" id='timeline-embed' style="width: 100%;"></div>
+    </nav>
+ </header>
 
   <nav id="menu">
     <div class="menuitm" >
       <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
       <a href="/">About</a>
+      <a href="#" id="time-toggle">Press Timeline</a>
       <a href="team.html">Team</a>
       <a href="eviction_def.html">Eviction</a>
       <a href="resettlement_def.html">Resettlement</a>
       <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
     </div>
-
   </nav>
 
   <div id="fullpage">
@@ -92,8 +93,6 @@
       </div>
     </div>
   </div>
-
-
 </div>
 </body>
 
@@ -123,7 +122,7 @@
           menu: '#menu',
           navigation: true,
           navigationPosition: 'right',
-          navigationTooltips: ['Introduction','Eviction Process','History','People','Place','Gallery'],
+          navigationTooltips: ['Definitions'],
           showActiveTooltip: true});
       });
       $(function(){
@@ -137,13 +136,15 @@
           }
         });
       });
-      $(document).ready(function() {
-        $('.2drawer').drawer({
-          class: {
-            nav: 'time-nav',
-            toggle: 'time-toggle'
-          }
-        });
+    $(document).ready(function(){
+        $('.press-timeline').hide();
+      });
+
+      $( "#time-toggle" ).click(function() {
+        $('.press-timeline').slideToggle()
+      });
+      $( ".drawer-toggle" ).click(function() {
+        $('.press-timeline').hide();
       });
     </script>
 

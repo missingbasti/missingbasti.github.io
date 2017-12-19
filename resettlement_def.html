@@ -46,55 +46,48 @@
 
 </head>
 
-<body class="drawer drawer--top">
+  <body class="drawer drawer--top">
   <header role="banner">
     <button type="button" class="drawer-toggle map-toggle drawer-hamburger">
       <span class="drawer-hamburger-icon"></span>
     </button>
     <nav class="drawer-nav map-nav" style="height: 700px;">
-        <embed src="https://snazzymaps.com/embed/34717" width="100%" height="400px" style="border:none;"></embed>
-        <div id='timeline-embed' style="width: 100%; height: 300px"></div>
+        <embed src="https://snazzymaps.com/embed/34717" width="100%" height="700px" style="border:none;"></embed>
+    </nav>
+    <nav class="section press-timeline" style="width: 100%; height: 60%;top: 60px; position: absolute; z-index: 1">
+      <div class="row" id='timeline-embed' style="width: 100%;"></div>
     </nav>
  </header>
 
- <nav id="menu">
-  <div class="menuitm" >
-    <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
-    <a href="/">About</a>
-    <a href="team.html">Team</a>
-    <a href="eviction_def.html">Eviction</a>
-    <a href="resettlement_def.html">Resettlement</a>
-    <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
+  <nav id="menu">
+    <div class="menuitm" >
+      <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
+      <a href="/">About</a>
+      <a href="#" id="time-toggle">Press Timeline</a>
+      <a href="team.html">Team</a>
+      <a href="eviction_def.html">Eviction</a>
+      <a href="resettlement_def.html">Resettlement</a>
+      <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
+    </div>
+  </nav>
+
+  <div id="fullpage">
+   <div class="container twelve section">            
+    <div class="row normal-text">
+      <div class="col-6">Resettlement is the process of moving people to a different place to live, because they are no longer allowed to stay in the same area. <a href="http://www.collinsdictionary.com" target="_blank">Collins Dictionary</a>
+        <br><br>
+        In cities, the juggis are found to be evicted due to various reasons including urban development, infrastructure development, urban beautification projects, property market forces, political reasons etc. and resettled in the peripheries.
+        <br><br>
+        Delhi has a long history of policies designed to remove JJ clusters from the city centre and relocate their residents to Delhi’s periphery, recent one being ‘Delhi Slums and JJ Rehabilitation and Relocation Policy, 2015’. The earlier policies provided the affected households with the land parcels whereas this approach has now shifted to the provision of constructed flats. 
+      </div>
+
+      <div class="col-6">
+        The resettlement colonies are planned colonies. These colonies often include households from various bastis around the city and show a mix of communities. The resettlement colonies in the peripheries of the city also affect their livelihoods. 
+        <br><br>
+        The resettlement colonies are supposed to be planned to provide basic services to the residents which are often absent in the JJ clusters. To achieve this, and to overcome problems arising due to resettlement, a clear understanding of the current issues faced in resettlement colonies and a comprehensive approach of resettlement is important. 
+      </div>
+    </div>
   </div>
-
-</nav>
-
-<div id="fullpage">
-  <div class="container twelve section">            
-Enter Data here
-  </div>
-  <div class="container twelve section">
-Enter Data here
-  </div>
-
-  <div class="container section">
-Enter Data here
-  </div>
-
-
-
-<div class="container twelve section">
-Enter Data here
-</div>
-
-
-<div class="container section">
-Enter Data here
-</div>
-<div id="gallery" class=" section">
- Enter Data here
-</div>
-
 
 </div>
 </body>
@@ -125,28 +118,38 @@ Enter Data here
           menu: '#menu',
           navigation: true,
           navigationPosition: 'right',
-          navigationTooltips: ['Introduction','Eviction Process','History','People','Place','Gallery'],
+          navigationTooltips: ['Definitions'],
           showActiveTooltip: true});
       });
       $(function(){
         $('.js-timeline').Timeline();
       });
       $(document).ready(function() {
-          $('.drawer').drawer({
-            class: {
-              nav: 'map-nav',
-              toggle: 'map-toggle'
-            }
-          });
+        $('.drawer').drawer({
+          class: {
+            nav: 'map-nav',
+            toggle: 'map-toggle'
+          }
         });
+      });
       $(document).ready(function() {
-          $('.2drawer').drawer({
-            class: {
-              nav: 'time-nav',
-              toggle: 'time-toggle'
-            }
-          });
+        $('.2drawer').drawer({
+          class: {
+            nav: 'time-nav',
+            toggle: 'time-toggle'
+          }
         });
+      });
+      $(document).ready(function(){
+        $('.press-timeline').hide();
+      });
+
+      $( "#time-toggle" ).click(function() {
+        $('.press-timeline').slideToggle()
+      });
+      $( ".drawer-toggle" ).click(function() {
+        $('.press-timeline').hide();
+      });
     </script>
 
     <script type="text/javascript">
