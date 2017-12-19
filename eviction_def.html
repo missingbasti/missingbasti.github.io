@@ -52,39 +52,45 @@
       <span class="drawer-hamburger-icon"></span>
     </button>
     <nav class="drawer-nav map-nav" style="height: 700px;">
-        <embed src="https://snazzymaps.com/embed/34717" width="100%" height="400px" style="border:none;"></embed>
-        <div id='timeline-embed' style="width: 100%; height: 300px"></div>
+      <embed src="https://snazzymaps.com/embed/34717" width="100%" height="400px" style="border:none;"></embed>
+      <div id='timeline-embed' style="width: 100%; height: 300px"></div>
     </nav>
- </header>
+  </header>
 
- <nav id="menu">
-  <div class="menuitm" >
-    <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
-    <a href="/">About</a>
-    <a href="team.html">Team</a>
-    <a href="eviction_def.html">Eviction</a>
-    <a href="resettlement_def.html">Resettlement</a>
-    <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
-  </div>
+  <nav id="menu">
+    <div class="menuitm" >
+      <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
+      <a href="/">About</a>
+      <a href="team.html">Team</a>
+      <a href="eviction_def.html">Eviction</a>
+      <a href="resettlement_def.html">Resettlement</a>
+      <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
+    </div>
 
-</nav>
+  </nav>
 
-<div id="fullpage">
-  <div class="container twelve section">            
-§  “Not all evictions [are] prohibited under international human rights law. The prohibition of forced eviction does not apply to evictions carried out both in accordance with the law and in conformity with the provision of international human rights treaties. For instance, it may be necessary to displace people from hazard-prone land to protect lives.” – OHCHR 2014:5
- 
-§  Forced eviction is “the permanent or temporary removal against their will of individuals, families and/or communities from the homes and/or land which they occupy, without the provision of, and access to, appropriate forms of legal or other protection” - (Committee on Economic, Social and Cultural Rights, general comment No. 7 (1997) on the right to adequate housing: forced evictions)
- 
- 
-§  Various elements, separately or combined, define a forced eviction: – A permanent or temporary removal from housing, land or both; – The removal is carried out against the will of the occupants, with or without the use of force; – It can be carried out without the provision of proper alternative housing and relocation, adequate compensation and/or access to productive land, when appropriate; – It is carried out without the possibility of challenging either the decision or the process of eviction, without due process and disregarding the State’s national and international obligations. – OHCHR
- 
-§  Forced evictions violate, directly and indirectly, the full spectrum of civil, cultural, economic, political and social rights enshrined in international instruments. – OHCHR
- 
-§  The practice of forced evictions involves the involuntary removal of persons from their homes or land, directly or indirectly attributable to the state. The right not to be forcibly evicted is an element of the human right to adequate housing. – HLRN
- 
- 
-§  The UN Basic Principles and Guidelines on Development-based Evictions and Displacement (2007) further expanded the definition of forced evictions to mean: [A]cts and / or omissions involving the coerced or involuntary displacement of individuals, groups and communities from homes and / or lands and common property resources that were occupied or depended upon, thus eliminating or limiting the ability of an individual, group or community to reside or work in a particular dwelling, residence or location, without the provision of, and access to, appropriate forms of legal or other protection.
-§  In Resolution 2004/28, the Human Rights Commission recognised that: The often violent practice of forced eviction involves the coerced and involuntary removal of persons, families and groups from their homes, lands and communities, whether or not deemed legal under prevailing systems of law, resulting in greater homelessness and inadequate housing and living conditions.
+  <div id="fullpage">
+    <div class="container twelve section">            
+      <div class="row normal-text">
+        <div class="col-6">§  “Not all evictions [are] prohibited under international human rights law. The prohibition of forced eviction does not apply to evictions carried out both in accordance with the law and in conformity with the provision of international human rights treaties. For instance, it may be necessary to displace people from hazard-prone land to protect lives.” – OHCHR 2014:5
+         <br><br>
+         §  Forced eviction is “the permanent or temporary removal against their will of individuals, families and/or communities from the homes and/or land which they occupy, without the provision of, and access to, appropriate forms of legal or other protection” - (Committee on Economic, Social and Cultural Rights, general comment No. 7 (1997) on the right to adequate housing: forced evictions)
+         <br>
+         <br>
+         §  Various elements, separately or combined, define a forced eviction: – A permanent or temporary removal from housing, land or both; – The removal is carried out against the will of the occupants, with or without the use of force; – It can be carried out without the provision of proper alternative housing and relocation, adequate compensation and/or access to productive land, when appropriate; – It is carried out without the possibility of challenging either the decision or the process of eviction, without due process and disregarding the State’s national and international obligations. – OHCHR
+         <br><br>
+         §  Forced evictions violate, directly and indirectly, the full spectrum of civil, cultural, economic, political and social rights enshrined in international instruments. – OHCHR
+       </div>
+
+       <div class="col-6">
+        §  The practice of forced evictions involves the involuntary removal of persons from their homes or land, directly or indirectly attributable to the state. The right not to be forcibly evicted is an element of the human right to adequate housing. – HLRN
+        <br><br>
+
+        §  The UN Basic Principles and Guidelines on Development-based Evictions and Displacement (2007) further expanded the definition of forced evictions to mean: [A]cts and / or omissions involving the coerced or involuntary displacement of individuals, groups and communities from homes and / or lands and common property resources that were occupied or depended upon, thus eliminating or limiting the ability of an individual, group or community to reside or work in a particular dwelling, residence or location, without the provision of, and access to, appropriate forms of legal or other protection.
+        <br><br>
+        §  In Resolution 2004/28, the Human Rights Commission recognised that: The often violent practice of forced eviction involves the coerced and involuntary removal of persons, families and groups from their homes, lands and communities, whether or not deemed legal under prevailing systems of law, resulting in greater homelessness and inadequate housing and living conditions.
+      </div>
+    </div>
   </div>
 
 
@@ -124,21 +130,21 @@
         $('.js-timeline').Timeline();
       });
       $(document).ready(function() {
-          $('.drawer').drawer({
-            class: {
-              nav: 'map-nav',
-              toggle: 'map-toggle'
-            }
-          });
+        $('.drawer').drawer({
+          class: {
+            nav: 'map-nav',
+            toggle: 'map-toggle'
+          }
         });
+      });
       $(document).ready(function() {
-          $('.2drawer').drawer({
-            class: {
-              nav: 'time-nav',
-              toggle: 'time-toggle'
-            }
-          });
+        $('.2drawer').drawer({
+          class: {
+            nav: 'time-nav',
+            toggle: 'time-toggle'
+          }
         });
+      });
     </script>
 
     <script type="text/javascript">
