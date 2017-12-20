@@ -26,9 +26,6 @@ variableWidth: false
 
 $(document).ready(function() {
   $("#lightgallery").lightGallery(); 
-  var page = location.search;
-    // alert(page);
-
 });
 
 
@@ -38,7 +35,7 @@ $(document).ready(function() {
     menu: '#menu',
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['Introduction','Eviction Process','History','People','Place','Gallery'],
+    navigationTooltips: ['Introduction','Eviction Process','Sketches','Gallery'],
     showActiveTooltip: true});
 });
 $(function(){

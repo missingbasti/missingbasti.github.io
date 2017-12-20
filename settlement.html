@@ -45,6 +45,32 @@
 
 
 </head>
+
+<body class="drawer drawer--top">
+  <header role="banner">
+    <button type="button" class="drawer-toggle map-toggle drawer-hamburger">
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <nav class="drawer-nav map-nav" style="height: 700px;">
+      <embed src="https://snazzymaps.com/embed/34717" width="100%" height="700px" style="border:none;"></embed>
+    </nav>
+    <nav class="section press-timeline" style="width: 100%; height: 60%;top: 60px; position: absolute; z-index: 1">
+      <div class="row" id='timeline-embed' style="width: 100%;"></div>
+    </nav>
+  </header>
+
+  <nav id="menu">
+    <div class="menuitm" >
+      <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
+      <a href="#" id="time-toggle"><i class="fa fa-newspaper-o"></i>&nbsp;Timeline</a>
+      <a href="/">About</a>
+      <a href="team.html">Team</a>
+      <a href="eviction_def.html">Eviction</a>
+      <a href="resettlement_def.html">Resettlement</a>
+      <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
+    </div>
+  </nav>
+
   <div id="fullpage">
     <div class="container twelve section">            
      <h1 id="heading"></h1>
@@ -54,6 +80,36 @@
     <div class="container twelve section">
       <img id="comic" style="width: 100%" /> 
     </div>
+    <div class="container section">
+
+
+  <div class="row your-class">
+    <div>
+      <img id="sk1" class="wide"  alt="">
+    </div>
+    <div>      <img id="sk2" class="wide" alt="">
+    </div>
+    <div>
+      <img id="sk3" class="wide" alt="">
+    </div>
+    <div>
+     <img id="sk4" class="wide"  alt="">
+   </div>
+   <div>
+     <img id="plan" class="wide"  alt="">
+   </div>
+    <div>
+     <img id="section" class="wide"  alt="">
+   </div>
+ </div>
+</div>
+ <div id="gallery" class=" section">
+  <div class="container grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 317, "gutter":3 }'>
+    <div class="grid-item zoom"><img id="g1" src=""/></div>
+    <div class="grid-item zoom"><img id="g2" src=""/></div>
+    <div class="grid-item zoom"><img id="g3" src=""/></div>
+  </div>
+</div>
 </div>
 </body>
 
@@ -69,17 +125,37 @@
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script src="js/site.js"></script>
 <script type="text/javascript">
-  $(document).ready(function(){
-     var rowClass="hello"
-      
-  });
 
+  var page = location.search;
+  console.log(page);
   $.getJSON( "data/test.json", function( data ) {
-  console.log(data.Sheet1[0].site)
-  $('#site-name').append(data.Sheet1[0].site);
-  $('#heading').append(data.Sheet1[0].headline);
-  $('#intro').append(data.Sheet1[0].intro);
-   $("#comic").attr("src",data.Sheet1[0].comicurl);
+  var i;
+  console.log(page)
+  if (page=="?pulmithai") {
+    i=0
+  } 
+  else if(page=="?kidwai"){ i=1 }
+  else if(page=="?sda"){ i=2 }
+  else if(page=="?kishangarh"){ i=3 }
+  else if(page=="?nehru"){ i=4 }
+  else if(page=="?yamuna"){ i=5 }
+  else if(page=="?madanpur"){ i=6 }
+  else if(page=="?janpath"){ i=7 }
+
+  $('#site-name').append(data.Sheet1[i].site);
+  $('#heading').append(data.Sheet1[i].headline);
+  $('#intro').append(data.Sheet1[i].intro);
+  $("#comic").attr("src",data.Sheet1[i].comicurl);
+  $("#sk1").attr("src",data.Sheet1[i].sketch1);
+  $("#sk2").attr("src",data.Sheet1[i].sketch2);
+  $("#sk3").attr("src",data.Sheet1[i].sketch3);
+  $("#sk4").attr("src",data.Sheet1[i].sketch4);
+  $("#section").attr("src",data.Sheet1[i].section);
+  $("#plan").attr("src",data.Sheet1[i].plan);
+  $("#g1").attr("src",data.Sheet1[i].gallery1);
+  $("#g2").attr("src",data.Sheet1[i].gallery2);
+  $("#g3").attr("src",data.Sheet1[i].gallery3);
+
 
 
   var items = [];
