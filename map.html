@@ -48,9 +48,6 @@
 
 <body class="drawer drawer--top">
   <header role="banner">
-    <button type="button" class="drawer-toggle map-toggle drawer-hamburger">
-      <span class="drawer-hamburger-icon"></span>
-    </button>
     <nav class="drawer-nav map-nav" style="height: 700px;">
       <embed src="https://snazzymaps.com/embed/34717" width="100%" height="700px" style="border:none;"></embed>
     </nav>
@@ -73,15 +70,38 @@
 
   <div id="fullpage" class="section"><embed src="https://snazzymaps.com/embed/34717" width="100%" height="100%" style="border:none;"></embed></div>
 </body>
-
+<script>$("#map").load("https://snazzymaps.com/embed/34717");</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"></script>
+<!-- jquery & iScroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
 <script>
  $(document).ready(function() {
   $('#fullpage').fullpage({
     menu: '#menu'
   });
 });
+
+ $(document).ready(function() {
+  $('.drawer').drawer({
+    class: {
+      nav: 'map-nav',
+      toggle: 'map-toggle'
+    }
+  });
+});
+$(document).ready(function(){
+  $('.press-timeline').hide();
+});
+
+$( "#time-toggle" ).click(function() {
+  $('.press-timeline').slideToggle()
+});
+$( ".drawer-toggle" ).click(function() {
+  $('.press-timeline').hide();
+});
 </script>
-<script>$("#map").load("https://snazzymaps.com/embed/34717");</script>
+
 
