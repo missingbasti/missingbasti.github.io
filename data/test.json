@@ -55,7 +55,10 @@
             "site": "Kishangarh",
             "headline": "Khanddar Par Basera",
             "intro": "Kishangarh, situated amongst heritage sites, before the settlement came in, was covered by forest. People started to come around 2012. Most of the houses were demolished by DDA in December 2016. They stayed at the ground in the vicinity for about 2 months, some rebuilt their homes while some went away. Now it has only about from 20-30 household with the sword of eviction always hanging over their head.",
-            "originurl": "img/origin/kishangarh.jpg"
+            "originurl": "img/origin/kishangarh.jpg",
+            "gallery1": "img/kishangarh/g1.jpg",
+            "gallery2": "img/kishangarh/g2.jpg",
+            "gallery3": "img/kishangarh/g3.jpg"
         },
         {
             "site": "Nehru Camp",
@@ -64,7 +67,16 @@
             "comic": "Seamless eviction process",
             "comicurl": "img/nehru/comic.jpg",
             "gifdesc": "Changing settlement area coverage",
-            "originurl": "img/origin/nehru-camp.jpg"
+            "originurl": "img/origin/nehru-camp.jpg",
+            "gallery1": "img/nehru/g1.jpg",
+            "gallery2": "img/nehru/g2.jpg",
+            "gallery3": "img/nehru/g3.jpg",
+            "sketch1": "img/nehru/sk1.jpg",
+            "sketch2": "img/nehru/sk2.jpg",
+            "sketch3": "img/nehru/sk3.jpg",
+            "sketch4": "img/nehru/sk4.jpg",
+            "section": "img/nehru/section.jpg",
+            "plan": "img/nehru/plan.jpg"
         },
         {
             "site": "Yamuna khadar",
