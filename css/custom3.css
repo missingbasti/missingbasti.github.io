@@ -116,7 +116,7 @@ h3{
 }
 
 .gif{
-	width: 260px;
+	max-width: 280px;
 }
 
 .zoom { transition: all .2s ease-in-out; }
