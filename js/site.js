@@ -27,7 +27,7 @@ variableWidth: false
 $(document).ready(function() {
   $("#lightgallery").lightGallery(); 
   var page = location.search;
-    alert(page);
+    // alert(page);
 
 });
 
@@ -62,3 +62,4 @@ $( "#time-toggle" ).click(function() {
 $( ".drawer-toggle" ).click(function() {
   $('.press-timeline').hide();
 });
+

@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <title>Missing Basti</title>
+  <link href="css/simple-grid.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+
+  <link href="css/custom3.css" rel="stylesheet">
+  <!-- <link href="css/timeline.css" rel="stylesheet"> -->
+
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.3.11/tiny-slider.css">
+
+  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.3.11/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.3.11/min/tiny-slider.js"></script>
+  <script src="js/float-panel.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
+
+  <script src="js/masonry.pkgd.min.js"></script>
+  <link rel="stylesheet" href="css/timeline.css">
+
+
+  <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+  <!-- 2 -->
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+
+
+</head>
+  <div id="fullpage">
+    <div class="container twelve section">            
+     <h1 id="heading"></h1>
+      <p id="intro"></p>
+           <p>-<br> A story from <a id="site-name" href="" title=""></a></p>
+    </div>
+    <div class="container twelve section">
+      <img id="comic" style="width: 100%" /> 
+    </div>
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"></script>
+<!-- jquery & iScroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+<script src="js/timeline.min.js"></script>
+<script src="js/lightgallery.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script src="js/site.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+     var rowClass="hello"
+      
+  });
+
+  $.getJSON( "data/test.json", function( data ) {
+  console.log(data.Sheet1[0].site)
+  $('#site-name').append(data.Sheet1[0].site);
+  $('#heading').append(data.Sheet1[0].headline);
+  $('#intro').append(data.Sheet1[0].intro);
+   $("#comic").attr("src",data.Sheet1[0].comicurl);
+
+
+  var items = [];
+  $.each( data, function( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
+ 
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
+});
+</script>
+</html>
