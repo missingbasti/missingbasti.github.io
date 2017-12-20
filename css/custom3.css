@@ -103,6 +103,10 @@ min-height: 60%
 	width: 20%
 }
 
+.char-img{
+max-height: 500px;
+}
+
 .sketch-desc{
 	margin-top: 30%!important;
 }
@@ -132,3 +136,4 @@ h3{
 .profile{
 	width: 200px;
 }
+

@@ -14,8 +14,21 @@ variableWidth: true
 });
 });
 
+$(document).ready(function(){
+  $('.char-slider').slick({
+adaptiveHeight: true,
+accessibility: true,
+dots: true,
+// centerMode: true,
+variableWidth: false
+});
+});
+
 $(document).ready(function() {
   $("#lightgallery").lightGallery(); 
+  var page = location.search;
+    alert(page);
+
 });
 
 
