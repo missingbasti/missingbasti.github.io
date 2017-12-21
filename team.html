@@ -120,7 +120,26 @@
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/site.js"></script>
 
+<script type="text/javascript">
 
+  var page = location.search;
+  console.log(page);
+  $.getJSON( "data/test.json", function( data ) {
+    $('#site-name').append(data.Sheet1[i].site);
+    $('#heading').append(data.Sheet1[i].headline);
+    $('#intro').append(data.Sheet1[i].intro);
+    $("#comic").attr("src",data.Sheet1[i].comicurl);
+     var items = [];
+    $.each(data,function(key,val) {
+      items.push( "<li id='" + key + "'>" + val + "</li>" );
+    });
+
+    $( "<ul/>", {
+      "class": "my-new-list",
+      html: items.join( "" )
+    }).appendTo( "body" );
+  });
+</script>
 <!--     <script>
       var slider = tns({
         container: '.my-slider',

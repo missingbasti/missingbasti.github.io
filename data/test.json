@@ -104,7 +104,16 @@
             "originurl": "img/origin/kishangarh.jpg",
             "gallery1": "img/kishangarh/g1.jpg",
             "gallery2": "img/kishangarh/g2.jpg",
-            "gallery3": "img/kishangarh/g3.jpg"
+            "gallery3": "img/kishangarh/g3.jpg",
+            "tlh1": "Inception of the Basti",
+            "tld1": "Citing good schools, hospitals around, people started living there giving rent to so called \"owners\"",
+            "tly1": "2012",
+            "tlh2": "First Eviction",
+            "tld2": "Eviction was done without notice",
+            "tly2": "2016",
+            "tlh3": "Shifting Back",
+            "tld3": "Tents were provided for the people in the ground, food was also provided for a month.After living for three months in the ground, people slowly started shifting back to the location.",
+            "tly3": "2017"
         },
         {
             "site": "Nehru Camp",
@@ -264,7 +273,147 @@
             "gallery3": "img/chattarpur/g3.jpg"
         },
         {
+            "site": "Dwarka",
+            "headline": "A resettlement away from livelihood",
+            "intro": "Under the scheme for resettlement of existing slums/JJ clusters in Delhi, they ought to be ameliorated by a judicious mix of relocation and in-situ development under (July 2003)-MOUD & PA guidelines for Master Plan of Delhi -2021. In the past five years, the most recent sites of resettlement have been Dwarka, Rohini, Narela and Savdar Ghevada. ",
+            "comic": "The process of resettlement",
+            "comicurl": "img/dwarka/comic.jpg",
+            "gifdesc": "Phase-wise development of resettlement colonies on the vacant land in the peripheries of Delhi i.e. Dwaraka",
+            "gallery1": "img/dwarka/g1.jpg",
+            "gallery2": "img/dwarka/g2.jpg",
+            "gallery3": "img/dwarka/g3.jpg",
+            "sketch1": "img/dwarka/sk1.jpg",
+            "sketch2": "img/dwarka/sk2.jpg",
+            "sketch3": "img/dwarka/sk3.jpg"
+        },
+        {
             "site": "Jai Bharti Nagar"
+        }
+    ],
+    "Team": [
+        {
+            "name": "KD",
+            "root": "img/team/",
+            "image": "kd.jpg",
+            "reflections": "As goes the famous saying, to understand a man's perspective you need to put yourself in his situation. Through this workshop I deeply understood the eviction process for slums in and around Delhi, their resettlement and the problems being faced by the people living their."
+        },
+        {
+            "name": "Arkadipta",
+            "root": "img/team/",
+            "image": "aurkadipta.jpg",
+            "reflections": "Eviction is a process, not a decision that should be taken overnight. This is the first thing that this workshop has taught me. In our country, where capital greed has overpowered every sector of the society that we often forget to think about the lives of the people who get evicted in the name of capital driven development that does not serve the other half of our country. This course has not only made me understand how these people suffer during eviction but also the legalities associated with eviction. I think that there is a necessity to spread a strong message to all the sectors of the society about the unlawful acts which are being carried out in this process of eviction."
+        },
+        {
+            "name": "Parth",
+            "root": "img/team/",
+            "image": "parth.jpg",
+            "reflections": "The Anti-Eviction Mapping Project - Delhi helps us to learn us about how the evictions taking place in the urban area and explains us how the people are left helpless and lonely after the demolition of their house. Through the SWS we gained the knowledge about the ground reality of the eviction sites by visiting various evited places and get to know how people are affected physically and mentally during and after eviction. What change happens after the eviction in their livelihood and how their lives changes after the process of the eviction."
+        },
+        {
+            "name": "Yashi",
+            "root": "img/team/",
+            "image": "yashi.jpg",
+            "reflections": "Slum is often rhythmically used with the words eviction and clearance. This project has helped in questioning the very fundamental meaning of the so called rational process of evicting slums in the light of human rights and right to life."
+        },
+        {
+            "name": "Aditi Rai",
+            "root": "img/team/",
+            "image": "aditi.jpg",
+            "reflections": "What could be a greater indictment of planning than nearly 75% of the city living in housing that is apparently “unplanned”? Walking through the overwhelming densified Bastis of Delhi, encountering temporary, fragile and vulnerable housing materials, the absence of sanitation, waste, and sewage services; you are struck by the poverty of the residents and bound to think about the contrast in the livelihood conditions pertaining in the city. Undertaking a fact-finding mission on forced evictions carried out in Delhi with an ethnographic research work on the Evicted sites & resettlement colonies; you enter into an oblivion of scenarios, where the existence of these Bastis cannot be questioned. The identity of the people and the place is so profound that erasing them forcibly from the face of the city sounds shallow for causes such as urban development and beautification. The journey makes you realize that “Bastis are no problem but a solution for a city that boasts of the country’s second largest per capita income, has an ugly face tucked away in its innards.”"
+        },
+        {
+            "name": "Delicia Konsam",
+            "root": "img/team/",
+            "image": "delicia.jpg",
+            "reflections": "Life is all about struggling for a better livelihood. This course gives us an immeasurable different perspective on life and people at large. In particular, the term “slum” that we often use to describe the informal settlements is nothing but full of life and a power-house of economic genesis.  A city is not a city without its people and cities are the accumulative confrontation of hardships and challenges by its people right from the beginning of human civilization. It will definitely be a grave misdeed if we tend to ignore these problems faced by the inhabitants. It is a high time that “evictions” are replaced with “admittance” along with economic empowerment of the former."
+        },
+        {
+            "name": "Mrinalini Jha",
+            "root": "img/team/",
+            "image": "mrinalini.jpg",
+            "reflections": "In this course I came across the different aspects of eviction and the problem as well as situation faced by the people who are being evicted. Before this workshop eviction for me was just a word which implied removal of people from a place but after being a part of this I came to know about the problems and the situation in which people life after being evicted. It give me a sense of true #humbhi hai . They are also the part of our nation."
+        },
+        {
+            "name": "Adithya D",
+            "root": "img/team/",
+            "image": "aditya.jpg",
+            "reflections": "The workshop sensitized me to the hardships undergone by the poor and really made me reflect on the important questions of who the city belongs to and whether we really want to just build cities that move the poor away. I realized that the truth is that the city belongs to everyone who wants to come, to contribute and to build their lives there. Housing for all strata of society in all parts of the city is of paramount importance and a goal towards which we should work."
+        },
+        {
+            "name": "Ravi",
+            "root": "img/team/",
+            "image": "ravi.jpg",
+            "reflections": "In the delhi Anti-Eviction we have taken two sites to survey i.e. Kidwai Nagar and Janpath, there we have to find out how the evictions have taken place, what problems people are facing before and after eviction and How is the condition of the slum right now!!. After visiting all the sites and interviewing different people, we collected our data and those data we represented the in the form of timeline, sketches, photographs, audio interviews and plan & section of the settlements. To conclude I would say that the condition of the kidwai nagar slum was very miserable they are just surviving there and waiting for the authorities for relocation of their home, in between they are also struggling for their livelihood and also thinking about what they will do if they are relocated somewhere else. In Janpath the people are living in a better condition then Kidwai Nagar but here the people dont want to move as their livelihood and job is in the near proximity, also they are living in that area for more than 50 years, so they are attached emotionally to the place. The people in both places were feeling insecure and were not mentally stable. The confusion has been created about there life and the question arises \"Is metro life is so cruel to have them\"."
+        },
+        {
+            "name": "Shweta Singh",
+            "root": "img/team/",
+            "image": "shweta.jpg",
+            "reflections": "In this course, we were able to understand the eviction process and what problems people face during the time of eviction, how people feel and their conflict of interest in the resettlement process, leaving the place they always knew and settling in new place what are the challenges they face. We tried to understand the mindset of people in time of eviction and how they feel about eviction and resettlement."
+        },
+        {
+            "name": "Poorva",
+            "root": "img/team/",
+            "image": "poorva.jpg",
+            "reflections": "My reflection is that i learnt a great deal from this workshop. This workshop showed us the true scenerio of what is happening in the government when they talk about resetting and relocation and how poor the people actually are. With a deain passing by their houses, people get ill every fortnight. It’s disheartening to ser such a sight. And the children dont even go to school. It is very bad for India’s future. Hopefully the government will take initiatives to give these people what they actually deserve and they get their right to shelter."
+        },
+        {
+            "name": "Garima Singh",
+            "root": "img/team/",
+            "image": "garima.jpg",
+            "reflections": "The whole course revolved around ‘eviction’ which is a central issue in slums around the globe. The course began with understanding the concept of eviction, the laws pertaining to it and then progressing towards visits to different sites In Delhi which has faced eviction in the last two years. Mostly Qualitative data was collected and this ethnographic research methodology was then used to document the history, urban fabric, socio cultural fabric and the eviction process for the particular settlement. The course also covered the aspect of resettlement of few evicted settlements which helped us identify the people’s concerns regarding the resettlement. The site visits and interviews helped us to conclude that ‘Resettlement is not a problem.. the way it is carried out is a problem’ and also ‘Evictions are not always forced. it is also sometimes a desire of few slum dwellers’."
+        },
+        {
+            "name": "Anjali Pathak",
+            "root": "img/team/",
+            "image": "anjali-01.jpg",
+            "reflections": "This workshop had given me very insightful learning about the process of eviction and demolition of Delhi's JJ clusters . This give me ability to comprehend the blurred line of home and house in those settlements. Overall experience of the SWS was extremely good and impressive ."
+        },
+        {
+            "name": "Rutuja",
+            "root": "img/team/",
+            "image": "rutuja.jpg",
+            "reflections": "This course exposed me to the issues of that section of the societies that are not often in limelight or are said to be residing in grey areas of the city. It gave me an opportunity to visit those parts of the city which otherwise I would have never been to. As a part of this course I learnt about the process of eviction, in some cases it was systematic and well organised whereas in many it was done in a very inhuman way, problems of the slum dwellers, difficulties they face after they are being resettled and tremendous capacity of these people to deal with the same. To summarize the experience was very overwhelming   and it has definitely changed my outlook in the way in which the city needs to be designed and planned. It is very essential to cater the interest of many underprivileged and poor which provides the workforce for city to function than the few elites. Eviction and resettlement is not merely shifting of people from one place to another but far more sensitive and complex issue which needs to deeper understanding of the communities, a lot of study and research.  "
+        },
+        {
+            "name": "Vijaya",
+            "root": "img/team/",
+            "image": "vijya.jpg",
+            "reflections": "Slum resettlement is a very common term in urban context, but the process that precedes resettlement i.e. eviction, is very rarely talked about and people have a very shallow understanding about it. This workshop has equipped us with the knowledge of the formal procedures of evictions, its legalities, emotional traumas of slum-dwellers, the aftermath of eviction etc. I believe that this website will further make more people aware in this context."
+        },
+        {
+            "name": "Shruti",
+            "root": "img/team/",
+            "image": "shruti.jpg",
+            "reflections": "It will be no exaggeration in saying that this workshop experience was transformative – both academically and personally. Having able to interact and reach out to the sufferings and implications caused to people due to ruthless evictions and there seldom unorganised and harsh resettlements to the outskirts, was crushing and also most importantly a realisation. The concept of sustainable cities that we all so devotedly talk about is not going happen designing and planning  cities for the car owners but for masses who resides in these bastis. I feel driven and positive about this small step we were able to take with this workshop and help these people to be noticed and get heard. "
+        },
+        {
+            "name": "Sanjay Kini",
+            "root": "img/team/",
+            "image": "sanjay.jpg",
+            "reflections": "It was a very humbling experience being a part of this workshop. It showed me a different walk of society who always live on the edge. It helped me appreciate life in general. The sessions though hectic at times, were justified given the short time available. All in all a great learning experience as I got to do something I have never done before, one which was gratifying."
+        },
+        {
+            "name": "Tanya",
+            "root": "img/team/",
+            "reflections": "Through this coarse I got to know the reallful meaning of eviction and the life of people got effected by it. It's not just the houses they were being evicted but also they places where they got resettled . There livelihood and the critical circumstances in which they live."
+        },
+        {
+            "name": "Mansi Kumar",
+            "root": "img/team/",
+            "image": "mansi.jpg",
+            "reflections": "This workshop helped me to understand ‘EVICTION’ from people who went through them. Every person has their own story regarding eviction – some of them are happy and some of them are sad. Most of these evictions were done for development – but development for whom??  Housing is a fundamental human right for every section of society and it is the government's obligation to guarantee that everyone can exercise this right."
+        },
+        {
+            "name": "Aryan Kumar",
+            "root": "img/team/",
+            "reflections": "This course gave me a different prospective and and vision to another side of the society. They people live in slums there life and the factors and problem came across them while eviction. This workshop focused on the iner view of these society and there lifestyle."
+        },
+        {
+            "name": "SHELLY VAISH",
+            "root": "img/team/",
+            "image": "shelly.jpg",
+            "reflections": "The time when our government visions of our cities becoming 'smart', this workshop exposed me towards some mind-boggling questions of who the city belongs to and right to shelter for the urban poor. Why the people who migrate to cities in search of better livelihoods are always forced to live in the most vulnerable areas bereft of basic facilities and also forced to face the vagaries of 'eviction' from their place of settlement and livelihood as well. The time when the urban population is expected to grow to 64% by 2050, instead of political statements like 'Jahan jhuggi wha makaan' just for vote bank we i.e. the government, planners, architects, and NGOs need to work as a team to bring in more transparency. For which I think this workshop was a small but collaborative effort to make \"unnoticeable - noticeable\"."
         }
     ]
 }
