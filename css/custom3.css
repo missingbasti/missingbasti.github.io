@@ -28,6 +28,10 @@ p {
 	margin-bottom: 48px;
 }
 
+img{
+	max-width: 100%;
+}
+
 .section a {
 	color: #3E4147;	border-bottom: 3px solid #CC4425;
 	font-weight: 700;
@@ -109,6 +113,7 @@ max-height: 500px;
 h3{
 	color: #CC4425;
 	font-family: 'Oswald';
+	line-height: 10px;
 	font-size: 24px;
 	font-weight: 400;
 	text-transform: uppercase;
