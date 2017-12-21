@@ -74,15 +74,36 @@
   <div id="fullpage">
     <div class="container twelve section">            
      <h1 id="heading"></h1>
-      <p id="intro"></p>
-           <p>-<br> A story from <a id="site-name" href="" title=""></a></p>
-    </div>
-    <div class="container twelve section">
-      <img id="comic" style="width: 100%" /> 
-    </div>
-    <div class="container section">
+     <p id="intro"></p>
+     <p>-<br> A story from <a id="site-name" href="" title=""></a></p>
+   </div>
+   <div class="container twelve section">
+    <img id="comic" style="width: 100%" /> 
+  </div>
 
+  <div class="container section">
+    <div class="row">        
+     <div class="col-8">
+       <div class="timeline-container ">
+        <div class="timeline js-timeline">
+          <div id="tly1"><h3 id="tlh1"></h3><p id="tld1"></p></div>
+          <div id="tly2"><h3 id="tlh2"></h3><p id="tld2"></p> </div>
+          <div id="tly3"><h3 id="tlh3"></h3><p id="tld3"></p> </div>
+          <div id="tly4"><h3 id="tlh4"></h3><p id="tld4" ></p> </div>
+          <div id="tly5"><h3 id="tlh5"></h3><p id="tld5"></p> </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="col-4">
+      <div id="gifintro" class="char-sketch"></div>
+      <hr>
+      <img id="gifurl" class="gif" src=""/>
+    </div>
+  </div>
+</div>
+
+<div class="container section">
   <div class="row your-class">
     <div>
       <img id="sk1" class="wide"  alt="">
@@ -98,12 +119,12 @@
    <div>
      <img id="plan" class="wide"  alt="">
    </div>
-    <div>
+   <div>
      <img id="section" class="wide"  alt="">
    </div>
  </div>
 </div>
- <div id="gallery" class=" section">
+<div id="gallery" class=" section">
   <div class="container grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 317, "gutter":3 }'>
     <div class="grid-item zoom"><img id="g1" src=""/></div>
     <div class="grid-item zoom"><img id="g2" src=""/></div>
@@ -123,50 +144,76 @@
 <script src="js/timeline.min.js"></script>
 <script src="js/lightgallery.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
-<script src="js/site.js"></script>
+
 <script type="text/javascript">
 
   var page = location.search;
   console.log(page);
   $.getJSON( "data/test.json", function( data ) {
-  var i;
-  console.log(page)
-  if (page=="?pulmithai") {
-    i=0
-  } 
-  else if(page=="?kidwai"){ i=1 }
-  else if(page=="?sda"){ i=2 }
-  else if(page=="?kishangarh"){ i=3 }
-  else if(page=="?nehru"){ i=4 }
-  else if(page=="?yamuna"){ i=5 }
-  else if(page=="?madanpur"){ i=6 }
-  else if(page=="?janpath"){ i=7 }
+    var i;
+    console.log(page)
+    if (page=="?pulmithai") {
+      i=0
+    } 
+    else if(page=="?kidwai"){ i=1 }
+      else if(page=="?sda"){ i=2 }
+        else if(page=="?kishangarh"){ i=3 }
+          else if(page=="?nehru"){ i=4 }
+            else if(page=="?yamuna"){ i=5 }
+              else if(page=="?madanpur"){ i=6 }
+                else if(page=="?janpath"){ i=7 }
+                  else if(page=="?shakur"){ i=8 }
+                    else if(page=="?chattarpur"){ i=9 }
 
-  $('#site-name').append(data.Sheet1[i].site);
-  $('#heading').append(data.Sheet1[i].headline);
-  $('#intro').append(data.Sheet1[i].intro);
-  $("#comic").attr("src",data.Sheet1[i].comicurl);
-  $("#sk1").attr("src",data.Sheet1[i].sketch1);
-  $("#sk2").attr("src",data.Sheet1[i].sketch2);
-  $("#sk3").attr("src",data.Sheet1[i].sketch3);
-  $("#sk4").attr("src",data.Sheet1[i].sketch4);
-  $("#section").attr("src",data.Sheet1[i].section);
-  $("#plan").attr("src",data.Sheet1[i].plan);
-  $("#g1").attr("src",data.Sheet1[i].gallery1);
-  $("#g2").attr("src",data.Sheet1[i].gallery2);
-  $("#g3").attr("src",data.Sheet1[i].gallery3);
+                      $('#site-name').append(data.Sheet1[i].site);
+                    $('#heading').append(data.Sheet1[i].headline);
+                    $('#intro').append(data.Sheet1[i].intro);
+                    $("#comic").attr("src",data.Sheet1[i].comicurl);
+                    $("#sk1").attr("src",data.Sheet1[i].sketch1);
+                    $("#sk2").attr("src",data.Sheet1[i].sketch2);
+                    $("#sk3").attr("src",data.Sheet1[i].sketch3);
+                    $("#sk4").attr("src",data.Sheet1[i].sketch4);
+                    $("#section").attr("src",data.Sheet1[i].section);
+                    $("#plan").attr("src",data.Sheet1[i].plan);
+                    $("#g1").attr("src",data.Sheet1[i].gallery1);
+                    $("#g2").attr("src",data.Sheet1[i].gallery2);
+                    $("#g3").attr("src",data.Sheet1[i].gallery3);
+                    $("#gifintro").append(data.Sheet1[i].gifdesc);
+                    $("#gifurl").attr("src",data.Sheet1[i].gifurl);
+
+                    $("#tlh1").append(data.Sheet1[i].tlh1);
+                    $("#tld1").append(data.Sheet1[i].tld1);
+                    $("#tlh2").append(data.Sheet1[i].tlh2);
+                    $("#tld2").append(data.Sheet1[i].tld2);
+                    $("#tlh3").append(data.Sheet1[i].tlh3);
+                    $("#tld3").append(data.Sheet1[i].tld3);
+                    $("#tlh4").append(data.Sheet1[i].tlh4);
+                    $("#tld4").append(data.Sheet1[i].tld4);
+                    $("#tlh5").append(data.Sheet1[i].tlh5);
+                    $("#tld5").append(data.Sheet1[i].tld5);
+                    
+
+
+                    $("#tly1").attr("data-time",data.Sheet1[i].tly1);
+                    $("#tly2").attr("data-time",data.Sheet1[i].tly2);
+                    $("#tly3").attr("data-time",data.Sheet1[i].tly3);
+                    $("#tly4").attr("data-time",data.Sheet1[i].tly4);
+                    $("#tly5").attr("data-time",data.Sheet1[i].tly5);
 
 
 
-  var items = [];
-  $.each( data, function( key, val ) {
-    items.push( "<li id='" + key + "'>" + val + "</li>" );
-  });
- 
-  $( "<ul/>", {
-    "class": "my-new-list",
-    html: items.join( "" )
-  }).appendTo( "body" );
-});
-</script>
-</html>
+
+                    var items = [];
+                    $.each( data, function( key, val ) {
+                      items.push( "<li id='" + key + "'>" + val + "</li>" );
+                    });
+
+                    $( "<ul/>", {
+                      "class": "my-new-list",
+                      html: items.join( "" )
+                    }).appendTo( "body" );
+                  });
+                </script>
+
+                <script src="js/site.js"></script>
+                </html>

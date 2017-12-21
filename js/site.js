@@ -35,7 +35,7 @@ $(document).ready(function() {
     menu: '#menu',
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['Introduction','Eviction Process','Sketches','Gallery'],
+    navigationTooltips: ['Introduction','Eviction Process','History','Gallery'],
     showActiveTooltip: true});
 });
 $(function(){
