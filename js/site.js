@@ -29,15 +29,6 @@ $(document).ready(function() {
 });
 
 
-
-$(document).ready(function() {
-  $('#fullpage').fullpage({
-    menu: '#menu',
-    navigation: true,
-    navigationPosition: 'right',
-    navigationTooltips: ['Introduction','Eviction Process','History','Place','Gallery'],
-    showActiveTooltip: true});
-});
 $(function(){
   $('.js-timeline').Timeline();
 });

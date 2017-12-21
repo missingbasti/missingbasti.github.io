@@ -47,6 +47,17 @@
 </head>
 
 <body class="drawer drawer--top">
+  <nav id="menu">
+  <div class="menuitm" >
+    <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
+    <a href="#" id="time-toggle"><i class="fa fa-newspaper-o"></i>&nbsp;Timeline</a>
+    <a href="/">About</a>
+    <a href="team.html">Team</a>
+    <a href="eviction_def.html">Eviction</a>
+    <a href="resettlement_def.html">Resettlement</a>
+    <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
+  </div>
+</nav>
   <header role="banner">
     <button type="button" class="drawer-toggle map-toggle drawer-hamburger">
       <span class="drawer-hamburger-icon"></span>
@@ -59,17 +70,7 @@
     </nav>
   </header>
 
-  <nav id="menu">
-    <div class="menuitm" >
-      <a id="map" class="map-toggle" href="#"><i class="fa fa-globe"></i>&nbsp;Map&nbsp;</a>
-      <a href="#" id="time-toggle"><i class="fa fa-newspaper-o"></i>&nbsp;Timeline</a>
-      <a href="/">About</a>
-      <a href="team.html">Team</a>
-      <a href="eviction_def.html">Eviction</a>
-      <a href="resettlement_def.html">Resettlement</a>
-      <a href="mailto:socialdesigncollaborative@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
-    </div>
-  </nav>
+
 
   <div id="fullpage">
     <div class="container twelve section">            
@@ -201,18 +202,13 @@
                     $("#tly4").attr("data-time",data.Sheet1[i].tly4);
                     $("#tly5").attr("data-time",data.Sheet1[i].tly5);
 
-
-
-
-                    var items = [];
-                    $.each( data, function( key, val ) {
-                      items.push( "<li id='" + key + "'>" + val + "</li>" );
+                    $(document).ready(function() {
+                      $('#fullpage').fullpage({
+                        navigation: true,
+                        navigationPosition: 'right',
+                        navigationTooltips: ['Introduction','Eviction Process','History','Place','Gallery'],
+                        showActiveTooltip: true});
                     });
-
-                    $( "<ul/>", {
-                      "class": "my-new-list",
-                      html: items.join( "" )
-                    }).appendTo( "body" );
                   });
                 </script>
 
