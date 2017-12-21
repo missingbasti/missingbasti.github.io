@@ -21,9 +21,9 @@ h2 {
 p {
 	color: #3E4147;
 	font-family: 'Arvo';
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 500;
-	line-height: 33px;
+	line-height: 32px;
 	letter-spacing: -0.01em;
 	margin-bottom: 48px;
 }
@@ -55,7 +55,7 @@ a{
 	font-size: 16px;
 	font-weight: 200;
 	text-transform: uppercase;
-	background: #cecece;
+	background: #ccc;
 }
 
 .menuitm{
