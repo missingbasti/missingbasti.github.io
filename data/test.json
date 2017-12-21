@@ -195,7 +195,22 @@
             "gallery3": "img/madanpur/g3.jpg",
             "sketch1": "img/madanpur/sk1.jpg",
             "sketch2": "img/madanpur/sk2.jpg",
-            "sketch3": "img/madanpur/sk3.jpg"
+            "sketch3": "img/madanpur/sk3.jpg",
+            "tlh1": "Farm Lands in the village of Madanur Khadar",
+            "tld1": "The farmers in Madanpur Khadar owned the lands around the small village and used them to grow upto two crops of wheat and pulses",
+            "tly1": "1980",
+            "tlh2": "DDA Survey Conducted",
+            "tld2": "Survey conducted by DDA for Slum Clearence in Bastis of Alaknanda, Nehru Place, Yusuf Sarai, Green Park",
+            "tly2": "1990",
+            "tlh3": "Petition Signed by Basti Residents",
+            "tld3": "Petition signed by Alaknanda residents to remove the slums.",
+            "tly3": "2000",
+            "tlh4": "Eviction in Bastis",
+            "tld4": "People were evicted from the bastis and promised plots in site near Apollo Hospital. The site then shifted to Madanpur Khadar .People mobilised to their allotted plots with their belongings",
+            "tly4": "2002",
+            "tlh5": "Madanpur Khadar Development Period",
+            "tld5": "The society has evolved since 2002 with no facilities and amenities provided during rehabilitation process.",
+            "tly5": "2017"
         },
         {
             "site": "Janpath",
@@ -228,7 +243,8 @@
             "tld4": "Numerous eviction notices were issued but no Eviction was done. In the the year 2015 (December) when 2nd eviction took place no one was ready as everyone thought it was like a boy who cried wolf.",
             "tly4": "2000",
             "tlh5": "Resettlement",
-            "tld5": "45 Households were resettled to Dwarka and remaining 70 Households are still living in Janpath in dilemma."
+            "tld5": "45 Households were resettled to Dwarka and remaining 70 Households are still living in Janpath in dilemma.",
+            "tly5": "2016"
         },
         {
             "site": "Shakur Basti",
@@ -262,7 +278,7 @@
             "tly4": "2015",
             "tlh5": "Case in Court",
             "tld5": "Case continues in court.",
-            "tly5": "Now"
+            "tly5": "2017"
         },
         {
             "site": "Chattarpur Pahadi",
