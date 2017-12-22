@@ -172,7 +172,16 @@
             "tly4": "2017",
             "tlh5": "Present situation",
             "tld5": "350 households in Nehru Camp and 140 are remaining  in Jaibharti Camp",
-            "tly5": "Now"
+            "tly5": "Now",
+            "char1img": "img/nehru/char1.jpg",
+            "char1name": "Jyanti Lal",
+            "char1desc": "An old man who is living with his wife. Due to eviction, his son and daughter-in-law moved to Dwarka.",
+            "char2img": "img/nehru/char2.jpg",
+            "char2name": "Amit",
+            "char2desc": "A young man living with his mother and is the only earning member of the family but is struggling now for work in Dwarka.",
+            "char3img": "img/nehru/char3.jpg",
+            "char3name": "Sunita",
+            "char3desc": "A mother of 2 who travels daily through a very uneven path to get drinking water for her household."
         },
         {
             "site": "Yamuna khadar",
@@ -297,7 +306,16 @@
             "tly4": "2015",
             "tlh5": "Case in Court",
             "tld5": "Case continues in court.",
-            "tly5": "Now"
+            "tly5": "Now",
+            "char1img": "img/shakur_basti/char1.jpg",
+            "char1name": "Ramdas ji",
+            "char1desc": "72 year old retired Ramdasji has dedicated his life to fighting for the rights of the poor in the city to which they contribute tremendously. He is now one of the most powerful voices of Shakur Basti and is trying to get justice for the displaced.",
+            "char2img": "img/shakur_basti/char2.jpg",
+            "char2name": "Aarzoo",
+            "char2desc": "26 year old mother of the toddler who died on the day of the eviction. She and her husband struggle to raise their three other children while shuttling to Tis Hazari Court for the parental negligence case filed against her husband by Delhi Police",
+            "char3img": "img/shakur_basti/char3.jpg",
+            "char3name": "Harinder",
+            "char3desc": "40 year old Harinder runs a Chinese fastfood stall within the Basti. His life had always featured struggles as he had his family of 5 to feed but it has taken a much harsher turn after the eviction happened."
         },
         {
             "site": "Chattarpur Pahadi",
