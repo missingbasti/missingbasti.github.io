@@ -105,12 +105,46 @@
   </div>
 </div>
 
+<div class="container twelve section">
+  <div class="row">
+    <div  class="col-12 char-slider">
+     <div class="char-sketch">
+      <div class="col-7"><img class="char-img" src="img/shakur_basti/aarzoo.jpg" /></div>
+      <div class="col-5 sketch-desc">
+        <h3>Aarzoo</h3>
+        <br/>F/26 . Bihar <br/>
+        Home maker.
+        <br/>26 year old mother of the toddler who died on the day of the eviction. She and her husband struggle to raise their three other children while shuttling to Tis Hazari Court for the parental negligence case filed against her husband by Delhi Police
+      </div>
+    </div>
+    <div class="char-sketch">
+      <div class="col-7"><img class="char-img" src="img/shakur_basti/Ramdas.jpg" /></div>
+      <div class="col-5 sketch-desc">
+        <h3>Ramdas Ji</h3>
+        <br/>M/72 . UP <br/>
+        Daily wage labour
+        <br/>72 year old retired Ramdasji has dedicated his life to fighting for the rights of the poor in the city to which they contribute tremendously. He is now one of the most powerful voices of Shakur Basti and is trying to get justice for the displaced.
+      </div>
+    </div>
+    <div class="char-sketch">
+      <div class="col-7"><h3>Harinder</h3><img class="char-img" src="img/shakur_basti/harinder.jpg" /></div>
+      <div class="col-5 sketch-desc">
+        <br/>M/40 . Bihar <br/>
+        Street Vendor
+        <br/>40 year old Harinder runs a Chinese fastfood stall within the Basti. His life had always featured struggles as he had his family of 5 to feed but it has taken a much harsher turn after the eviction happened.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
 <div id="place" class="container section">
   <div class="row your-class">
     <div>
       <img id="sk1" class="wide"  alt="">
     </div>
-    <div>      <img id="sk2" class="wide" alt="">
+    <div>      
+      <img id="sk2" class="wide" alt="">
     </div>
     <div>
       <img id="sk3" class="wide" alt="">
@@ -168,65 +202,65 @@
                     else if(page=="?chattarpur"){ i=9 }
                       else if(page=="?dwarka"){ i=10 }
 
-                    $('#site-name').append(data.Sheet1[i].site);
-                    $('#heading').append(data.Sheet1[i].headline);
-                    $('#intro').append(data.Sheet1[i].intro);
-                    $("#comic").attr("src",data.Sheet1[i].comicurl);
-                    $("#sk1").attr("src",data.Sheet1[i].sketch1);
-                    $("#sk2").attr("src",data.Sheet1[i].sketch2);
-                    $("#sk3").attr("src",data.Sheet1[i].sketch3);
-                    $("#sk4").attr("src",data.Sheet1[i].sketch4);
-                    $("#section").attr("src",data.Sheet1[i].section);
-                    $("#plan").attr("src",data.Sheet1[i].plan);
-                    $("#g1").attr("src",data.Sheet1[i].gallery1);
-                    $("#g2").attr("src",data.Sheet1[i].gallery2);
-                    $("#g3").attr("src",data.Sheet1[i].gallery3);
-                    $("#gifintro").append(data.Sheet1[i].gifdesc);
-                    $("#gifurl").attr("src",data.Sheet1[i].gifurl);
-           
+                        $('#site-name').append(data.Sheet1[i].site);
+                      $('#heading').append(data.Sheet1[i].headline);
+                      $('#intro').append(data.Sheet1[i].intro);
+                      $("#comic").attr("src",data.Sheet1[i].comicurl);
+                      $("#sk1").attr("src",data.Sheet1[i].sketch1);
+                      $("#sk2").attr("src",data.Sheet1[i].sketch2);
+                      $("#sk3").attr("src",data.Sheet1[i].sketch3);
+                      $("#sk4").attr("src",data.Sheet1[i].sketch4);
+                      $("#section").attr("src",data.Sheet1[i].section);
+                      $("#plan").attr("src",data.Sheet1[i].plan);
+                      $("#g1").attr("src",data.Sheet1[i].gallery1);
+                      $("#g2").attr("src",data.Sheet1[i].gallery2);
+                      $("#g3").attr("src",data.Sheet1[i].gallery3);
+                      $("#gifintro").append(data.Sheet1[i].gifdesc);
+                      $("#gifurl").attr("src",data.Sheet1[i].gifurl);
 
-                    $("#tlh1").append(data.Sheet1[i].tlh1);
-                    $("#tld1").append(data.Sheet1[i].tld1);
-                    $("#tlh2").append(data.Sheet1[i].tlh2);
-                    $("#tld2").append(data.Sheet1[i].tld2);
-                    $("#tlh3").append(data.Sheet1[i].tlh3);
-                    $("#tld3").append(data.Sheet1[i].tld3);
-                    $("#tlh4").append(data.Sheet1[i].tlh4);
-                    $("#tld4").append(data.Sheet1[i].tld4);
-                    $("#tlh5").append(data.Sheet1[i].tlh5);
-                    $("#tld5").append(data.Sheet1[i].tld5);
 
-                    $("#tly1").attr("data-time",data.Sheet1[i].tly1);
-                    $("#tly2").attr("data-time",data.Sheet1[i].tly2);
-                    $("#tly3").attr("data-time",data.Sheet1[i].tly3);
-                    $("#tly4").attr("data-time",data.Sheet1[i].tly4);
-                    $("#tly5").attr("data-time",data.Sheet1[i].tly5);
+                      $("#tlh1").append(data.Sheet1[i].tlh1);
+                      $("#tld1").append(data.Sheet1[i].tld1);
+                      $("#tlh2").append(data.Sheet1[i].tlh2);
+                      $("#tld2").append(data.Sheet1[i].tld2);
+                      $("#tlh3").append(data.Sheet1[i].tlh3);
+                      $("#tld3").append(data.Sheet1[i].tld3);
+                      $("#tlh4").append(data.Sheet1[i].tlh4);
+                      $("#tld4").append(data.Sheet1[i].tld4);
+                      $("#tlh5").append(data.Sheet1[i].tlh5);
+                      $("#tld5").append(data.Sheet1[i].tld5);
 
-                   if (data.Sheet1[i].gifurl==null) {
-                      $("#gifsec").hide();
-                    }
+                      $("#tly1").attr("data-time",data.Sheet1[i].tly1);
+                      $("#tly2").attr("data-time",data.Sheet1[i].tly2);
+                      $("#tly3").attr("data-time",data.Sheet1[i].tly3);
+                      $("#tly4").attr("data-time",data.Sheet1[i].tly4);
+                      $("#tly5").attr("data-time",data.Sheet1[i].tly5);
 
-                    if (data.Sheet1[i].tlh1==null) {
-                      $("#history").remove();
-                    }
+                      if (data.Sheet1[i].gifurl==null) {
+                        $("#gifsec").hide();
+                      }
 
-                    if (data.Sheet1[i].comicurl==null) {
-                      $("#process").remove();
-                    }
+                      if (data.Sheet1[i].tlh1==null) {
+                        $("#history").remove();
+                      }
 
-                    if (data.Sheet1[i].sketch1==null) {
-                      $("#place").remove();
-                    }
+                      if (data.Sheet1[i].comicurl==null) {
+                        $("#process").remove();
+                      }
 
-                    $(document).ready(function() {
-                      $('#fullpage').fullpage({
-                        navigation: true,
-                        navigationPosition: 'right',
-                        navigationTooltips: ['Introduction','Eviction Process','History','Place','Gallery'],
-                        showActiveTooltip: true});
+                      if (data.Sheet1[i].sketch1==null) {
+                        $("#place").remove();
+                      }
+
+                      $(document).ready(function() {
+                        $('#fullpage').fullpage({
+                          navigation: true,
+                          navigationPosition: 'right',
+                          navigationTooltips: ['Introduction','Eviction Process','History','Place','Gallery'],
+                          showActiveTooltip: true});
+                      });
                     });
-                  });
-                </script>
+                  </script>
 
-                <script src="js/site.js"></script>
-                </html>
+                  <script src="js/site.js"></script>
+                  </html>
