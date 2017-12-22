@@ -105,7 +105,16 @@
             "tly4": "2008",
             "tlh5": "Eviction",
             "tld5": "Complaint from neighbouring houses regarding the community dwellers",
-            "tly5": "2017"
+            "tly5": "2017",
+            "char1img": "img/sda/char1.jpg",
+            "char1name": "Golu,Babbu, Manoj",
+            "char1desc": "These kids found a teddy bear amidst the ruins. They found solace in this fact.",
+            "char2img": "img/sda/char2.jpg",
+            "char2name": "Balwant and Laksmi",
+            "char2desc": "When the rest were evicted, they didn’t go along with them, for the reason that the temple had too much sentimental value for them to leave. But now they are being forced to leave despite the temple. They are caught between two worlds, the one where “Bhagwan se bada Kon hai?!” and the one where “ Bhagwan se bada koi hai!!”",
+            "char3img": "img/sda/char3.jpg",
+            "char3name": "Padma",
+            "char3desc": "This is the window through which one gets to enter the settlement. They close this window at night as means of security. There is a tea stall adjoining it"
         },
         {
             "site": "Kishangarh",
@@ -123,7 +132,13 @@
             "tly2": "2016",
             "tlh3": "Shifting Back",
             "tld3": "Tents were provided for the people in the ground, food was also provided for a month.After living for three months in the ground, people slowly started shifting back to the location.",
-            "tly3": "2017"
+            "tly3": "2017",
+            "char1img": "img/kishangarh/char1.jpg",
+            "char1name": "Ramesh and Sona",
+            "char1desc": "You can see how joyfully the kid is playing amidst the ruins while the father is lovingly looking over her, for a moment forgetting his pain and anguish at the eviction.",
+            "char2img": "img/kishangarh/char2.jpg",
+            "char2name": "Javed",
+            "char2desc": "You can find a ragpicker here trying salvage something valuable from the waste which is his only source of income"
         },
         {
             "site": "Nehru Camp",
@@ -191,7 +206,16 @@
             "tly4": "2014",
             "tlh5": "Eviction",
             "tld5": "Eviction and demolition by DDA to clear the land by demolishing the units",
-            "tly5": "2016"
+            "tly5": "2016",
+            "char1img": "img/yamuna/char1.jpg",
+            "char1name": "Usha Prashad with family",
+            "char1desc": "Prasad family are tenants living in kacha house. They grow seasonal crops and most of their incomes goes in rent",
+            "char2img": "img/yamuna/char2.jpg",
+            "char2name": "Sunita",
+            "char2desc": "Her husband and son are both earning and are living very comfortably.",
+            "char3img": "img/yamuna/char3.jpg",
+            "char3name": "Anushka",
+            "char3desc": "A mother of 2 who lost her child a year ago due to pneumonia."
         },
         {
             "site": "Madanpur Khadar",

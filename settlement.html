@@ -101,6 +101,47 @@
   </div>
 </div>
 
+<div class="container section" id="people">
+
+  <div class="row">
+    <div class="char-slider">
+     <div class="char-sketch">
+      <div class="col-6">
+        <img id="char1img" class="char-img" src="" />
+      </div>
+      <div class="col-6 sketch-desc">
+        <h2 id="char1name"></h2>
+        <br/><br>
+        <p id="char1txt"></p>
+      </div>
+    </div>
+
+    <div class="char-sketch">
+      <div class="col-6">
+        <img id="char2img" class="char-img" src="" />
+      </div>
+      <div class="col-6 sketch-desc">
+        <h2 id="char2name"></h2>
+        <br/><br>
+        <p id="char2txt"></p>
+      </div>
+    </div>
+
+    <div class="char-sketch">
+      <div class="col-6">
+        <img id="char3img" class="char-img" src="" />
+      </div>
+      <div class="col-6 sketch-desc">
+        <h2 id="char3name"></h2>
+        <br/><br>
+        <p id="char3txt"></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</div>
 
 <div id="place" class="container section">
   <div class="row your-class">
@@ -200,8 +241,27 @@
                       $("#tly4").attr("data-time",data.Sheet1[i].tly4);
                       $("#tly5").attr("data-time",data.Sheet1[i].tly5);
 
+
+                      $("#char1img").attr("src",data.Sheet1[i].char1img);
+                      $("#char1name").append(data.Sheet1[i].char1name);
+                      $("#char1txt").append(data.Sheet1[i].char1desc);
+
+
+                      $("#char2img").attr("src",data.Sheet1[i].char2img);
+                      $("#char2name").append(data.Sheet1[i].char2name);
+                      $("#char2txt").append(data.Sheet1[i].char2desc);
+
+                      $("#char3img").attr("src",data.Sheet1[i].char3img);
+                      $("#char3name").append(data.Sheet1[i].char3name);
+                      $("#char3txt").append(data.Sheet1[i].char3desc);
+
+                      if (data.Sheet1[i].char1img==null) {
+                        $("#people").remove();
+                      }
+
+
                       if (data.Sheet1[i].gifurl==null) {
-                        $("#gifsec").hide();
+                        $("#gifsec").remove();
                       }
 
                       if (data.Sheet1[i].tlh1==null) {
@@ -220,7 +280,7 @@
                         $('#fullpage').fullpage({
                           navigation: true,
                           navigationPosition: 'right',
-                          navigationTooltips: ['Introduction','Eviction Process','History','Place','Gallery'],
+                          navigationTooltips: ['Introduction','Eviction Process','History','People','Place','Gallery'],
                           showActiveTooltip: true});
                       });
                     });
