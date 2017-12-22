@@ -79,11 +79,11 @@
      <p id="intro"></p>
      <p>-<br> A story from <a id="site-name" href="" title=""></a></p>
    </div>
-   <div class="container twelve section">
+   <div id="process" class="container twelve section">
     <img id="comic" style="width: 100%" /> 
   </div>
 
-  <div class="container section">
+  <div id="history" class="container section">
     <div class="row">        
      <div class="col-8">
        <div class="timeline-container ">
@@ -97,7 +97,7 @@
       </div>
     </div>
 
-    <div class="col-4">
+    <div id="gifsec" class="col-4">
       <div id="gifintro" class="char-sketch"></div>
       <hr>
       <img id="gifurl" class="gif" src=""/>
@@ -105,7 +105,7 @@
   </div>
 </div>
 
-<div class="container section">
+<div id="place" class="container section">
   <div class="row your-class">
     <div>
       <img id="sk1" class="wide"  alt="">
@@ -168,7 +168,7 @@
                     else if(page=="?chattarpur"){ i=9 }
                       else if(page=="?dwarka"){ i=10 }
 
-                      $('#site-name').append(data.Sheet1[i].site);
+                    $('#site-name').append(data.Sheet1[i].site);
                     $('#heading').append(data.Sheet1[i].headline);
                     $('#intro').append(data.Sheet1[i].intro);
                     $("#comic").attr("src",data.Sheet1[i].comicurl);
@@ -183,6 +183,7 @@
                     $("#g3").attr("src",data.Sheet1[i].gallery3);
                     $("#gifintro").append(data.Sheet1[i].gifdesc);
                     $("#gifurl").attr("src",data.Sheet1[i].gifurl);
+           
 
                     $("#tlh1").append(data.Sheet1[i].tlh1);
                     $("#tld1").append(data.Sheet1[i].tld1);
@@ -194,14 +195,28 @@
                     $("#tld4").append(data.Sheet1[i].tld4);
                     $("#tlh5").append(data.Sheet1[i].tlh5);
                     $("#tld5").append(data.Sheet1[i].tld5);
-                    
-
 
                     $("#tly1").attr("data-time",data.Sheet1[i].tly1);
                     $("#tly2").attr("data-time",data.Sheet1[i].tly2);
                     $("#tly3").attr("data-time",data.Sheet1[i].tly3);
                     $("#tly4").attr("data-time",data.Sheet1[i].tly4);
                     $("#tly5").attr("data-time",data.Sheet1[i].tly5);
+
+                   if (data.Sheet1[i].gifurl==null) {
+                      $("#gifsec").hide();
+                    }
+
+                    if (data.Sheet1[i].tlh1==null) {
+                      $("#history").remove();
+                    }
+
+                    if (data.Sheet1[i].comicurl==null) {
+                      $("#process").remove();
+                    }
+
+                    if (data.Sheet1[i].sketch1==null) {
+                      $("#place").remove();
+                    }
 
                     $(document).ready(function() {
                       $('#fullpage').fullpage({
