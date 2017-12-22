@@ -1,11 +1,12 @@
 {
     "Sheet1": [
         {
-            "site": "PULMITHAI",
-            "headline": "A BRIDGE OF SURVIVAL",
+            "site": "Pul Mithai",
+            "headline": "A Bridge of Survival",
             "intro": "Near the Old Delhi railway station is a congested location with a quirky name. ‘Pul Mithai’ — a bridge with a sweet connection that goes back to the late 18th century. Pul Mithai is the stretch on Shyama Prasad Mukherjee Marg from Pili Kothi to the junction where it meets Qutb Road and Azad Market road with two railway lines passing below it. The state government’s apathy towards the plight of the homeless was once again highlighted on Wednesday, 6th December 2017 after the police, along with Railway Protection Force (RPF), evicted over 270 families from their settlement on Pul Mithai Bridge in Old Delhi. The eviction drive, according to locals, happened without notice with bulldozers dismantling the shops and the settlements attached to it, creating a horrific scene at 07:00 am in the morning. The market has shut down and locals claim that their belongings were confiscated by the railway police in the process with no hopes of getting it back.",
             "comic": "Pre-eviction, Eviction & Aftermath",
             "comicurl": "img/pul_mithai/comic.jpg",
+            "gifurl": "img/pul_mithai/PULMITHAI.gif",
             "gifdesc": "Recurrent evictions on the bridge",
             "originurl": "img/origin/pul-mithai.jpg",
             "gallery1": "img/pul_mithai/g1.jpg",
@@ -35,9 +36,9 @@
         },
         {
             "site": "Kidwai Nagar",
-            "headline": "Rotting by the Nala !!",
-            "intro": "During Indira Gandhi’s period in the 1980s this settlement was made. Arjun Das, the MLA of the area used to have rallys and so he invited a few people to come join him as guests. The guests made it their permanent residence and now they were thrown out without a warning. Their houses were shattered, children left their schools and life became miserable and tears were all that were left",
-            "comic": "Jhuggis were disposed making situation very stark.",
+            "headline": "Rotting by the Nala",
+            "intro": "During Indira Gandhi’s tenure as Prime Minister in the 1980s this settlement came about to be. Some residents claim that Arjun Das, the MLA of the area used to have political rallies here and some of his supporters made it their residence over time. Some of the residents were evicted in 2016 due to the construction of a 'Smart Ctities' project there. Their houses were shattered, children were forced to leave their schools and quality of life has become miserable due to fracturing of their communities and construction all around the remaining houses.",
+            "comic": "Jhuggis were displaced",
             "comicurl": "img/kidwai/comic.jpg",
             "gifurl": "img/kidwai/kidwai.gif",
             "gifdesc": "Changing boundary of the Kidwai Nagar Settlement over time",
@@ -65,13 +66,22 @@
             "tly4": "2009",
             "tlh5": "Resettlement",
             "tld5": "Out of the total households which were evicted in the year 2009 few which fell under the boundary of NDMC were allotted flats in Bawana.",
-            "tly5": "2010"
+            "tly5": "2010",
+            "char1img": "img/kidwai/char1.jpg",
+            "char1name": "Pradhan Janpath",
+            "char1desc": "Janpath lies in the most activate and important part of the city. This area gives people a lot of job opportunities. People living here don’t want to be resettled somewhere else.",
+            "char2img": "img/kidwai/char2.jpg",
+            "char2name": "Suresh",
+            "char2desc": "One-side travel from resettlement colony to janpath costs 80 rupees. People spend almost half of their monthly income in travelling. People are struggling",
+            "char3img": "img/kidwai/char3.jpg",
+            "char3name": "Madan",
+            "char3desc": "Four people in a family of 7 members work but are not able to put up enough money to support their family. They cant afford to spend money for wedding in delhi, they go back to their village for the wedding."
         },
         {
-            "site": "SDA",
+            "site": "SDA Rajiv Nagar",
             "headline": "Through a window thou shall enter",
             "intro": "Rajiv camp, once a bustling settlement, has been reduced to a settlement of 26 households where people live by a drain with pigs, dogs and goats clearly outnumbering them. The oldest has been here since 1985 and post 2004, there have been recurring evictions citing reasons such as construction of a road to the cemetery, school construction, complaint from the neighbourhood. They have seen days (2004, 2007, and 2017) where they have been man-handled and thrown out of their homes with no time given to save their belongings. Through a window thou shall enter a world as grey as the drain which flows through it.",
-            "comic": "Events of the eviction day at SDA Settlement",
+            "comic": "Events of the eviction day ",
             "comicurl": "img/sda/comic.jpg",
             "gifdesc": "Settlement geometry change",
             "originurl": "img/origin/sda.jpg",
@@ -99,8 +109,8 @@
         },
         {
             "site": "Kishangarh",
-            "headline": "Khanddar Par Basera",
-            "intro": "Kishangarh, situated amongst heritage sites, before the settlement came in, was covered by forest. People started to come around 2012. Most of the houses were demolished by DDA in December 2016. They stayed at the ground in the vicinity for about 2 months, some rebuilt their homes while some went away. Now it has only about from 20-30 household with the sword of eviction always hanging over their head.",
+            "headline": "Khandar Par Basera",
+            "intro": "Kishangarh, situated amongst heritage sites, before the settlement came in, was covered by forest. People started to settle there around 2012. Most of the houses were demolished by DDA in December 2016. They stayed on ground in the vicinity for about 2 months, some rebuilt their homes while some went away. Now it has only about from 20-30 households with the sword of eviction always hanging over their head.",
             "originurl": "img/origin/kishangarh.jpg",
             "gallery1": "img/kishangarh/g1.jpg",
             "gallery2": "img/kishangarh/g2.jpg",
@@ -118,7 +128,7 @@
         {
             "site": "Nehru Camp",
             "headline": "Way for some, way-out for others",
-            "intro": "Nehru camp and Jai Bharti camp located along Delhi- Meerut expressway (NH24) is a home to migrants from U.P, Bihar, Rajasthan etc. These ignored segments have suffered multiple evictions, one of the major eviction dating back to 2007, where the houses were demolished without compensation for road widening rendering the people homeless. Recently a large number of households have been evicted for the widening of NH-24 and have been resettled in Dwarka. These evictions not only disrupts the employment,it also ruptures community belongingness and socio-cultural fabric of the community.",
+            "intro": "Nehru camp and Jai Bharti camp located along Delhi- Meerut expressway (NH24) is a home to migrants from U.P, Bihar, Rajasthan etc. These ignored segments have suffered multiple evictions, one of the major eviction dating back to 2007, where the houses were demolished without compensation for road widening rendering the people homeless. Recently a large number of households have been evicted for the widening of NH-24 and have been resettled in Dwarka. These evictions not only disrupts the employment, it also ruptures community belongingness and socio-cultural fabric of the community.",
             "comic": "Seamless eviction process",
             "comicurl": "img/nehru/comic.jpg",
             "gifurl": "img/nehru/nehru.gif",
@@ -140,13 +150,13 @@
             "tld2": "Eviction in Nehru and Jaibharti camps due to Road Widening of NH24 but no compensation was given",
             "tly2": "2007",
             "tlh3": "Settlement densified",
-            "tld3": "Number of households were reduced to 1200HH and 140HH in Nehru and Jaibharti camps",
+            "tld3": "Number of households were reduced to 1200 in Nehru camp and 140 in Jaibharti camp",
             "tly3": "2015",
-            "tlh4": "Eviction,Demolition and Resettlement",
-            "tld4": "Eviction and resettlement of 450HH from Nehru and 20HH from Jaibharti camps respectively in Dwarka",
+            "tlh4": "Eviction, Demolition and Resettlement",
+            "tld4": "Eviction and resettlement of 450 households from Nehru and 20 from Jaibharti camps to Dwarka",
             "tly4": "2017",
             "tlh5": "Present situation",
-            "tld5": "350HH and 140HH are remaining in Nehru and Jaibharti Camps",
+            "tld5": "350 households in Nehru Camp and 140 are remaining  in Jaibharti Camp",
             "tly5": "Now"
         },
         {
@@ -174,7 +184,7 @@
             "tld2": "More People from UP,Bihar migrated to this place for work and began squatting on this land. Number of households increased to 20HH-30HH",
             "tly2": "1980",
             "tlh3": "Major Eviction",
-            "tld3": "School in the settlement was demolished.DDA cleared the land by demolishing units and damaging the agricultural farms",
+            "tld3": "School in the settlement was demolished. DDA cleared the land by demolishing units and damaging the agricultural farms",
             "tly3": "2011",
             "tlh4": "Stay Order",
             "tld4": "Stay order by Court to the people staying on the land",
@@ -185,37 +195,23 @@
         },
         {
             "site": "Madanpur Khadar",
-            "headline": "RICH VERSUS POOR DIVIDE",
-            "intro": "\"Like several resettlement colonies of the poor, Madanpur Khadar – sandwiched between the blue-glass fronted corporate offices and spanking new malls of Sarita Vihar, adjoining the imposing Apollo Hospital – does not have a efficient health center.\" Transforming from farmlands to a JJ Resettlement Colony, the area has evolved as a society with its residents living far away from the city. People shell out a monthly Rs.1000-5000 rent for a damp and un-ventilated one-room house crammed in between the narrow and foul-smelling streets, in the absence of civic or sewerage facilities. The rich have shifted away, with their built-ups on rent. The colony has inherited its identity from the people living there. Delhi- metamorphosing into a capital of the new world and a city that boasts of the country’s second largest per capita income, has an ugly face tucked away in its innards.",
+            "headline": "A rich and poor divide",
+            "intro": "Like several resettlement colonies of the poor, Madanpur Khadar – sandwiched between the blue-glass fronted corporate offices and spanking new malls of Sarita Vihar, adjoining the imposing Apollo Hospital – does not have a efficient health center. Transforming from farmlands to a JJ Resettlement Colony, the area has evolved as a society with its residents living far away from the city. People shell out a monthly Rs.1000-5000 rent for a damp and un-ventilated one-room house crammed in between the narrow and foul-smelling streets, in the absence of civic or sewerage facilities. The better off have shifted away, putting their houses up for rent. The colony has inherited its identity from the mix of people living there. ",
             "comic": "The process of resettlement - From pre-eviction scenario to post-eviction resettlement in incremental manner",
             "comicurl": "img/madanpur/comic.jpg",
+            "gifurl": "img/madanpur/madanpur.gif",
             "originurl": "img/origin/sda.jpg",
             "gallery1": "img/madanpur/g1.jpg",
             "gallery2": "img/madanpur/g2.jpg",
             "gallery3": "img/madanpur/g3.jpg",
             "sketch1": "img/madanpur/sk1.jpg",
             "sketch2": "img/madanpur/sk2.jpg",
-            "sketch3": "img/madanpur/sk3.jpg",
-            "tlh1": "Farm Lands in the village of Madanur Khadar",
-            "tld1": "The farmers in Madanpur Khadar owned the lands around the small village and used them to grow upto two crops of wheat and pulses",
-            "tly1": "1980",
-            "tlh2": "DDA Survey Conducted",
-            "tld2": "Survey conducted by DDA for Slum Clearence in Bastis of Alaknanda, Nehru Place, Yusuf Sarai, Green Park",
-            "tly2": "1990",
-            "tlh3": "Petition Signed by Basti Residents",
-            "tld3": "Petition signed by Alaknanda residents to remove the slums.",
-            "tly3": "2000",
-            "tlh4": "Eviction in Bastis",
-            "tld4": "People were evicted from the bastis and promised plots in site near Apollo Hospital. The site then shifted to Madanpur Khadar .People mobilised to their allotted plots with their belongings",
-            "tly4": "2002",
-            "tlh5": "Madanpur Khadar Development Period",
-            "tld5": "The society has evolved since 2002 with no facilities and amenities provided during rehabilitation process.",
-            "tly5": "2017"
+            "sketch3": "img/madanpur/sk3.jpg"
         },
         {
             "site": "Janpath",
             "headline": "Sandwiched between government offices and markets.",
-            "intro": "Janpath is a settlement which is sandwiched in Lutyen’s Delhi. With markets and government offices that have slowly crept in, the slum people are gasping for breathing. People have made it their house since a century. But their paradise was snatched away from them. There used to be a stable in this place. Slowly people from nearby states like Rajasthan, U.P., M.P. started to pour in. The slum has people working in different sectors like shops, labourers, contract based occupation.",
+            "intro": "Janpath is a settlement sandwiched inbetween what is called Lutyen’s Delhi which has been home for hundreds for over a century. What used to house horses' stables and car garages before Independence came to be inhabited by the locals  in this place after Independence. Slowly people from nearby states like Rajasthan, U.P., M.P. started to pour in. The slum has people working in different sectors like shops, labourers, contract based occupation.",
             "comic": "Resettling few indicate a blanket failure of the government to provide houses and employment.",
             "comicurl": "img/janpath/comic.jpg",
             "gifurl": "img/janpath/janpath.gif",
@@ -231,10 +227,10 @@
             "section": "img/janpath/section.jpg",
             "plan": "img/janpath/plan.jpg",
             "tlh1": "Lutyens Delhi was Planned and constructed",
-            "tld1": "Horse stables were established in the early 1900. Meanwhile the area started to transform in the period starting from 1910 to 1925. Landmarks Like Rashtrapati Bhavan came up building the importance of the area.",
+            "tld1": "Horse stables were built in the early 1900s.  Meanwhile the area started to transform in the period starting from 1910 to 1925. Landmarks Like Rashtrapati Bhavan came up building the importance of the area.",
             "tly1": "1900",
             "tlh2": "Developed as a prominent Central Business District",
-            "tld2": "Prominent Government offices were established, making the area a magnet for employment. People working as Caretakers, Gardener etc. started settling in the vicinity.",
+            "tld2": "Prominent Government offices were established, making the area a magnet for employment. People working as caretakers, gardener etc. started settling in the vicinity.",
             "tly2": "1925",
             "tlh3": "First Eviction",
             "tld3": "In the year 1975 first time the people were evicted. During the period of 1970s major slum clearance took place and this resulted into the resettlement of the Slum from Janpath to Trilokpuri. Few did not get any resettled due to the lack of documents",
@@ -243,8 +239,7 @@
             "tld4": "Numerous eviction notices were issued but no Eviction was done. In the the year 2015 (December) when 2nd eviction took place no one was ready as everyone thought it was like a boy who cried wolf.",
             "tly4": "2000",
             "tlh5": "Resettlement",
-            "tld5": "45 Households were resettled to Dwarka and remaining 70 Households are still living in Janpath in dilemma.",
-            "tly5": "2016"
+            "tld5": "45 Households were resettled to Dwarka and remaining 70 Households are still living in Janpath in dilemma."
         },
         {
             "site": "Shakur Basti",
@@ -278,12 +273,12 @@
             "tly4": "2015",
             "tlh5": "Case in Court",
             "tld5": "Case continues in court.",
-            "tly5": "2017"
+            "tly5": "Now"
         },
         {
             "site": "Chattarpur Pahadi",
             "headline": "A settlement reduced from over a 100 to 2!",
-            "intro": "Here is a settlement by the 100ft road in the Chattarpur area called as Chattarpur Pahadi, which traces its roots to 1985. Poor people, mostly from Rajasthan, were given land by the gram panchayat and they lived peacefully till 2008. That is when trouble started, various government bodies started interfering saying that they have no right over the land and started evicting them every 4 years since 2008 and lot of agony in between. But people always came back and rebuilt. The latest eviction happened in 2017. The police is taking care that no one returns this time. So the people have taken rented places away from here hoping that one day they can come back. One family and a single person stay on despite all odds. That is how a settlement was reduced from over 100 to 2!",
+            "intro": "Here is a settlement by the 100ft road in the Chattarpur area called Chattarpur Pahadi, which traces its roots to 1985. Poor people, mostly from Rajasthan, were given land by the Gram Panchayat and they lived peacefully till 2008. That is when trouble started, various government bodies started interfering saying that they have no right over the land and started evicting them every 4 years since 2008. But people always came back and rebuilt. The latest eviction happened in 2017. The police is taking care that no one returns this time. So the people have taken rented places away from here hoping that one day they can come back. One family and a single person stay on despite all odds while their cases are in court. That is how a settlement was reduced from over 100 homes to 2!",
             "gallery1": "img/chattarpur/g1.jpg",
             "gallery2": "img/chattarpur/g2.jpg",
             "gallery3": "img/chattarpur/g3.jpg"
@@ -291,9 +286,10 @@
         {
             "site": "Dwarka",
             "headline": "A resettlement away from livelihood",
-            "intro": "Under the scheme for resettlement of existing slums/JJ clusters in Delhi, they ought to be ameliorated by a judicious mix of relocation and in-situ development under (July 2003)-MOUD & PA guidelines for Master Plan of Delhi -2021. In the past five years, the most recent sites of resettlement have been Dwarka, Rohini, Narela and Savdar Ghevada. ",
+            "intro": "Under the scheme for resettlement of existing slums/JJ clusters in Delhi, they ought to be ameliorated by a judicious mix of relocation and in-situ development under (July 2003)-MOUD & PA guidelines for Master Plan of Delhi -2021. However, in the past five years, the most recent sites of resettlement have been the far flung areas of Dwarka, Rohini, Narela and Savdar Ghevada.",
             "comic": "The process of resettlement",
             "comicurl": "img/dwarka/comic.jpg",
+            "gifurl": "img/dwarka/dwarka.gif",
             "gifdesc": "Phase-wise development of resettlement colonies on the vacant land in the peripheries of Delhi i.e. Dwaraka",
             "gallery1": "img/dwarka/g1.jpg",
             "gallery2": "img/dwarka/g2.jpg",
@@ -303,51 +299,82 @@
             "sketch3": "img/dwarka/sk3.jpg"
         },
         {
-            "site": "Jai Bharti Nagar"
+            "site": "Jai Bharti Nagar",
+            "headline": "Way for some, way-out for others",
+            "intro": "Nehru camp and Jai Bharti camp located along Delhi- Meerut expressway (NH24) is a home to migrants from U.P, Bihar, Rajasthan etc. These ignored segments have suffered multiple evictions, one of the major eviction dating back to 2007, where the houses were demolished without compensation for road widening rendering the people homeless. Recently a large number of households have been evicted for the widening of NH-24 and have been resettled in Dwarka. These evictions not only disrupts the employment, it also ruptures community belongingness and socio-cultural fabric of the community.",
+            "comic": "Seamless eviction process",
+            "comicurl": "img/nehru/comic.jpg",
+            "gifurl": "img/nehru/jaibharti.gif",
+            "gifdesc": "Changing settlement area coverage",
+            "originurl": "img/origin/nehru-camp.jpg",
+            "gallery1": "img/nehru/g1.jpg",
+            "gallery2": "img/nehru/g2.jpg",
+            "gallery3": "img/nehru/g3.jpg",
+            "sketch1": "img/nehru/sk1.jpg",
+            "sketch2": "img/nehru/sk2.jpg",
+            "sketch3": "img/nehru/sk3.jpg",
+            "sketch4": "img/nehru/sk4.jpg",
+            "section": "img/nehru/section.jpg",
+            "plan": "img/nehru/plan.jpg",
+            "tlh1": "Migration of People",
+            "tld1": "People from UP,Bihar,Rajasthan migrated for work and began squatting on this land.Number of households increased to 1500HH and 300HH in Nehru and Jaibharti Camps respectively",
+            "tly1": "1970",
+            "tlh2": "First Eviction",
+            "tld2": "Eviction in Nehru and Jaibharti camps due to Road Widening of NH24 but no compensation was given",
+            "tly2": "2007",
+            "tlh3": "Settlement densified",
+            "tld3": "Number of households were reduced to 1200 in Nehru camp and 140 in Jaibharti camp",
+            "tly3": "2015",
+            "tlh4": "Eviction, Demolition and Resettlement",
+            "tld4": "Eviction and resettlement of 450 households from Nehru and 20 from Jaibharti camps to Dwarka",
+            "tly4": "2017",
+            "tlh5": "Present situation",
+            "tld5": "350 households in Nehru Camp and 140 are remaining  in Jaibharti Camp",
+            "tly5": "Now"
         }
     ],
     "Team": [
         {
-            "name": "KD",
+            "name": "Karn Dev Singh",
             "root": "img/team/",
             "image": "kd.jpg",
-            "reflections": "As goes the famous saying, to understand a man's perspective you need to put yourself in his situation. Through this workshop I deeply understood the eviction process for slums in and around Delhi, their resettlement and the problems being faced by the people living their."
+            "reflections": "As goes the famous saying, to understand a man's perspective you need to put yourself in his situation. Over the last few days, I began to understand the eviction process of bastis in and around Delhi, their resettlement and the many problems being faced by the people living there."
         },
         {
-            "name": "Arkadipta",
+            "name": "Arka Dipta Banerjee",
             "root": "img/team/",
             "image": "aurkadipta.jpg",
-            "reflections": "Eviction is a process, not a decision that should be taken overnight. This is the first thing that this workshop has taught me. In our country, where capital greed has overpowered every sector of the society that we often forget to think about the lives of the people who get evicted in the name of capital driven development that does not serve the other half of our country. This course has not only made me understand how these people suffer during eviction but also the legalities associated with eviction. I think that there is a necessity to spread a strong message to all the sectors of the society about the unlawful acts which are being carried out in this process of eviction."
+            "reflections": "Eviction is a process, not a decision that should be taken overnight. This is the first thing that this workshop has taught me. In our country, capital greed has overpowered every sector of the society. We often forget to think about the lives of the people who get evicted in the name of capital driven development that does not serve the other half of our country. There is an urgent need to spread a strong message to all the sectors of the society about the unlawful acts which are being carried out in the processes of eviction."
         },
         {
-            "name": "Parth",
+            "name": "Shah Parth Bipinchandra",
             "root": "img/team/",
             "image": "parth.jpg",
-            "reflections": "The Anti-Eviction Mapping Project - Delhi helps us to learn us about how the evictions taking place in the urban area and explains us how the people are left helpless and lonely after the demolition of their house. Through the SWS we gained the knowledge about the ground reality of the eviction sites by visiting various evited places and get to know how people are affected physically and mentally during and after eviction. What change happens after the eviction in their livelihood and how their lives changes after the process of the eviction."
+            "reflections": "Evictions taking place in the urban areas often leave people feeling helpless after the demolition of their homes. Over the last few days, we saw the ground reality of the eviction sites and how people are affected physically and mentally during and after eviction. "
         },
         {
-            "name": "Yashi",
+            "name": "Yashi Sharma",
             "root": "img/team/",
             "image": "yashi.jpg",
-            "reflections": "Slum is often rhythmically used with the words eviction and clearance. This project has helped in questioning the very fundamental meaning of the so called rational process of evicting slums in the light of human rights and right to life."
+            "reflections": "The word 'slum' is often associated with the words 'eviction' and 'clearance'. This project has helped me in questioning the very fundamental meaning of the so called rational process of evicting slums, in the light of its impact on human rights and right to the city."
         },
         {
             "name": "Aditi Rai",
             "root": "img/team/",
             "image": "aditi.jpg",
-            "reflections": "What could be a greater indictment of planning than nearly 75% of the city living in housing that is apparently “unplanned”? Walking through the overwhelming densified Bastis of Delhi, encountering temporary, fragile and vulnerable housing materials, the absence of sanitation, waste, and sewage services; you are struck by the poverty of the residents and bound to think about the contrast in the livelihood conditions pertaining in the city. Undertaking a fact-finding mission on forced evictions carried out in Delhi with an ethnographic research work on the Evicted sites & resettlement colonies; you enter into an oblivion of scenarios, where the existence of these Bastis cannot be questioned. The identity of the people and the place is so profound that erasing them forcibly from the face of the city sounds shallow for causes such as urban development and beautification. The journey makes you realize that “Bastis are no problem but a solution for a city that boasts of the country’s second largest per capita income, has an ugly face tucked away in its innards.”"
+            "reflections": "What could be a greater indictment of planning than nearly 75% of the city living in housing that is apparently “unplanned”? Walking through the overwhelmingly dense bastis of Delhi, encountering temporary, fragile and vulnerable housing materials, the absence of sanitation, waste, and sewage services; you are struck by the contrast in the livelihood conditions in the city. The identity of the people and the place in these bastis is so rich and deep that erasing them forcibly from the face of the city sounds highly shallow for causes such as urban development and beautification. "
         },
         {
             "name": "Delicia Konsam",
             "root": "img/team/",
             "image": "delicia.jpg",
-            "reflections": "Life is all about struggling for a better livelihood. This course gives us an immeasurable different perspective on life and people at large. In particular, the term “slum” that we often use to describe the informal settlements is nothing but full of life and a power-house of economic genesis.  A city is not a city without its people and cities are the accumulative confrontation of hardships and challenges by its people right from the beginning of human civilization. It will definitely be a grave misdeed if we tend to ignore these problems faced by the inhabitants. It is a high time that “evictions” are replaced with “admittance” along with economic empowerment of the former."
+            "reflections": "The term 'slum' that we often use to describe many informal settlements is nothing but full of life and a power-house of economic genesis.  A city is not a city without its people and cities are the accumulative confrontation of hardships and challenges by its people right from the beginning of human civilization. It will definitely be a grave misdeed if we tend to ignore these problems faced by the inhabitants. It is a high time that 'evictions' are replaced with 'admittance' along with economic empowerment of the former."
         },
         {
             "name": "Mrinalini Jha",
             "root": "img/team/",
             "image": "mrinalini.jpg",
-            "reflections": "In this course I came across the different aspects of eviction and the problem as well as situation faced by the people who are being evicted. Before this workshop eviction for me was just a word which implied removal of people from a place but after being a part of this I came to know about the problems and the situation in which people life after being evicted. It give me a sense of true #humbhi hai . They are also the part of our nation."
+            "reflections": "Before this workshop, 'eviction' for me was just a word which implied removal of people from a place but after being a part of this I came to know about the problems and the situation in which people live after being evicted. It made me think of the importance of our slogan #humbhi hai. They are also a part of our cities."
         },
         {
             "name": "Adithya D",
@@ -356,80 +383,80 @@
             "reflections": "The workshop sensitized me to the hardships undergone by the poor and really made me reflect on the important questions of who the city belongs to and whether we really want to just build cities that move the poor away. I realized that the truth is that the city belongs to everyone who wants to come, to contribute and to build their lives there. Housing for all strata of society in all parts of the city is of paramount importance and a goal towards which we should work."
         },
         {
-            "name": "Ravi",
+            "name": "Ravi Shekhar",
             "root": "img/team/",
             "image": "ravi.jpg",
-            "reflections": "In the delhi Anti-Eviction we have taken two sites to survey i.e. Kidwai Nagar and Janpath, there we have to find out how the evictions have taken place, what problems people are facing before and after eviction and How is the condition of the slum right now!!. After visiting all the sites and interviewing different people, we collected our data and those data we represented the in the form of timeline, sketches, photographs, audio interviews and plan & section of the settlements. To conclude I would say that the condition of the kidwai nagar slum was very miserable they are just surviving there and waiting for the authorities for relocation of their home, in between they are also struggling for their livelihood and also thinking about what they will do if they are relocated somewhere else. In Janpath the people are living in a better condition then Kidwai Nagar but here the people dont want to move as their livelihood and job is in the near proximity, also they are living in that area for more than 50 years, so they are attached emotionally to the place. The people in both places were feeling insecure and were not mentally stable. The confusion has been created about there life and the question arises \"Is metro life is so cruel to have them\"."
+            "reflections": "We took up two sites to find out how evictions have taken place, what problems people are facing before and after eviction and how is their condition right now. I saw first hand how miserable the condition of the Kidwai Nagar slum has become after eviction as they are just barely surviving there. They are hoping and waiting for the authorities for relocation of their homes while the people in Janpath area don't want to move as their jobs are in close proximity, and they have called that place home for over 50 years now. "
         },
         {
             "name": "Shweta Singh",
             "root": "img/team/",
             "image": "shweta.jpg",
-            "reflections": "In this course, we were able to understand the eviction process and what problems people face during the time of eviction, how people feel and their conflict of interest in the resettlement process, leaving the place they always knew and settling in new place what are the challenges they face. We tried to understand the mindset of people in time of eviction and how they feel about eviction and resettlement."
+            "reflections": "In understanding the eviction process, we also came to understand how people feel towards their resettlement process, and their conflict of interests in leaving the place they always knew and settling in a new place with its new sets of challenges"
         },
         {
-            "name": "Poorva",
+            "name": "Poorva Priyadarshini",
             "root": "img/team/",
             "image": "poorva.jpg",
-            "reflections": "My reflection is that i learnt a great deal from this workshop. This workshop showed us the true scenerio of what is happening in the government when they talk about resetting and relocation and how poor the people actually are. With a deain passing by their houses, people get ill every fortnight. It’s disheartening to ser such a sight. And the children dont even go to school. It is very bad for India’s future. Hopefully the government will take initiatives to give these people what they actually deserve and they get their right to shelter."
+            "reflections": "The last few days brought to light the true scenerio of what is happening within the government's processes when they talk about resetting and relocation. Hopefully the government will take initiatives to give these people what they actually deserve and they get their right to shelter."
         },
         {
             "name": "Garima Singh",
             "root": "img/team/",
             "image": "garima.jpg",
-            "reflections": "The whole course revolved around ‘eviction’ which is a central issue in slums around the globe. The course began with understanding the concept of eviction, the laws pertaining to it and then progressing towards visits to different sites In Delhi which has faced eviction in the last two years. Mostly Qualitative data was collected and this ethnographic research methodology was then used to document the history, urban fabric, socio cultural fabric and the eviction process for the particular settlement. The course also covered the aspect of resettlement of few evicted settlements which helped us identify the people’s concerns regarding the resettlement. The site visits and interviews helped us to conclude that ‘Resettlement is not a problem.. the way it is carried out is a problem’ and also ‘Evictions are not always forced. it is also sometimes a desire of few slum dwellers’."
+            "reflections": "The whole course revolved around ‘eviction’ which is a central issue in slums around the globe. The course also covered the aspect of resettlement of few evicted settlements which helped us identify the people’s concerns regarding the resettlement. The site visits and interviews helped me gain a new insight on how resettlement is not necessarily a problem - the way it is carried out is a problem. Also, evictions may not always be forced, in some cases they could be desired by the communities living there."
         },
         {
             "name": "Anjali Pathak",
             "root": "img/team/",
             "image": "anjali-01.jpg",
-            "reflections": "This workshop had given me very insightful learning about the process of eviction and demolition of Delhi's JJ clusters . This give me ability to comprehend the blurred line of home and house in those settlements. Overall experience of the SWS was extremely good and impressive ."
+            "reflections": "The last few days helped me gain an insightful learning about the process of eviction and demolition of Delhi's JJ clusters, and appreciate the blurred line between a home and house there. "
         },
         {
-            "name": "Rutuja",
+            "name": "Phanse Rutuja Milind",
             "root": "img/team/",
             "image": "rutuja.jpg",
-            "reflections": "This course exposed me to the issues of that section of the societies that are not often in limelight or are said to be residing in grey areas of the city. It gave me an opportunity to visit those parts of the city which otherwise I would have never been to. As a part of this course I learnt about the process of eviction, in some cases it was systematic and well organised whereas in many it was done in a very inhuman way, problems of the slum dwellers, difficulties they face after they are being resettled and tremendous capacity of these people to deal with the same. To summarize the experience was very overwhelming   and it has definitely changed my outlook in the way in which the city needs to be designed and planned. It is very essential to cater the interest of many underprivileged and poor which provides the workforce for city to function than the few elites. Eviction and resettlement is not merely shifting of people from one place to another but far more sensitive and complex issue which needs to deeper understanding of the communities, a lot of study and research.  "
+            "reflections": "This course gave me an opportunity to visit those parts of the city which otherwise I would have never been to. While understanding the process of eviction, I saw how in some cases it was systematic and well organised whereas in many it was done in a very inhuman way - the problems of the  dwellers, difficulties they face after they are being resettled and their tremendous capacity to deal with the same. The experience was very overwhelming and it has changed my outlook in the way in which the city needs to be designed and planned. "
         },
         {
-            "name": "Vijaya",
+            "name": "Redekar Vijaya Subhash Pushpa",
             "root": "img/team/",
             "image": "vijya.jpg",
             "reflections": "Slum resettlement is a very common term in urban context, but the process that precedes resettlement i.e. eviction, is very rarely talked about and people have a very shallow understanding about it. This workshop has equipped us with the knowledge of the formal procedures of evictions, its legalities, emotional traumas of slum-dwellers, the aftermath of eviction etc. I believe that this website will further make more people aware in this context."
         },
         {
-            "name": "Shruti",
+            "name": "Shruti Rastogi",
             "root": "img/team/",
             "image": "shruti.jpg",
-            "reflections": "It will be no exaggeration in saying that this workshop experience was transformative – both academically and personally. Having able to interact and reach out to the sufferings and implications caused to people due to ruthless evictions and there seldom unorganised and harsh resettlements to the outskirts, was crushing and also most importantly a realisation. The concept of sustainable cities that we all so devotedly talk about is not going happen designing and planning  cities for the car owners but for masses who resides in these bastis. I feel driven and positive about this small step we were able to take with this workshop and help these people to be noticed and get heard. "
+            "reflections": "This workshop experience has been transformative for me – both academically and personally. Having able to interact and reach out to the sufferings and implications caused to people due to ruthless evictions and there seldom unorganised and harsh resettlements to the outskirts, was crushing and also most importantly, a realisation. The concept of sustainable cities that we all so devotedly talk about is not going happen by designing and planning cities for the car owners but for masses who reside in these bastis. "
         },
         {
             "name": "Sanjay Kini",
             "root": "img/team/",
             "image": "sanjay.jpg",
-            "reflections": "It was a very humbling experience being a part of this workshop. It showed me a different walk of society who always live on the edge. It helped me appreciate life in general. The sessions though hectic at times, were justified given the short time available. All in all a great learning experience as I got to do something I have never done before, one which was gratifying."
+            "reflections": "It was a very humbling experience being a part of this workshop which showed me a different walk of society who always live on the edge. It helped me appreciate life in general. "
         },
         {
-            "name": "Tanya",
+            "name": "Tanya Sarkar",
             "root": "img/team/",
-            "reflections": "Through this coarse I got to know the reallful meaning of eviction and the life of people got effected by it. It's not just the houses they were being evicted but also they places where they got resettled . There livelihood and the critical circumstances in which they live."
+            "reflections": "Through this coarse I got to know the real and full meaning of eviction and the life of people who got affected by it. It's not just the houses they were being evicted from but also the places where they got resettled that we got to understand, along with their livelihood and the critical circumstances in which they live."
         },
         {
             "name": "Mansi Kumar",
             "root": "img/team/",
             "image": "mansi.jpg",
-            "reflections": "This workshop helped me to understand ‘EVICTION’ from people who went through them. Every person has their own story regarding eviction – some of them are happy and some of them are sad. Most of these evictions were done for development – but development for whom??  Housing is a fundamental human right for every section of society and it is the government's obligation to guarantee that everyone can exercise this right."
+            "reflections": "This workshop helped me to understand ‘Eviction’ from people who went through them. Every person has their own story regarding eviction – some of them are happy and some of them are sad. Most of these evictions were done for development – but development for whom? Housing is a fundamental human right for every section of society and it is the government's obligation to guarantee that everyone can exercise this right."
         },
         {
-            "name": "Aryan Kumar",
+            "name": "Aryan Kumar Arya",
             "root": "img/team/",
-            "reflections": "This course gave me a different prospective and and vision to another side of the society. They people live in slums there life and the factors and problem came across them while eviction. This workshop focused on the iner view of these society and there lifestyle."
+            "reflections": "This course gave me a different perspective and an inside view to another side of the society. "
         },
         {
-            "name": "SHELLY VAISH",
+            "name": "Shelly Vaish",
             "root": "img/team/",
             "image": "shelly.jpg",
-            "reflections": "The time when our government visions of our cities becoming 'smart', this workshop exposed me towards some mind-boggling questions of who the city belongs to and right to shelter for the urban poor. Why the people who migrate to cities in search of better livelihoods are always forced to live in the most vulnerable areas bereft of basic facilities and also forced to face the vagaries of 'eviction' from their place of settlement and livelihood as well. The time when the urban population is expected to grow to 64% by 2050, instead of political statements like 'Jahan jhuggi wha makaan' just for vote bank we i.e. the government, planners, architects, and NGOs need to work as a team to bring in more transparency. For which I think this workshop was a small but collaborative effort to make \"unnoticeable - noticeable\"."
+            "reflections": "At a time when our government envisions of our cities becoming 'smart', this workshop exposed me towards some mind-boggling questions of who the city belongs to and right to shelter for the urban poor. Why are the people who migrate to cities in search of better livelihoods always forced to live in the most vulnerable areas bereft of basic facilities and also forced to face the vagaries of 'eviction' from their place of settlement and livelihood as well? "
         }
     ]
 }
