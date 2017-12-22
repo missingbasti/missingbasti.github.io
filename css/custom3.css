@@ -46,6 +46,11 @@ a{
 	color: #272727;
 }
 
+em{
+	font-size: 1.4rem;
+	color: #CC4425;
+}
+
 #menu{
     z-index: 1;
     position: absolute;
