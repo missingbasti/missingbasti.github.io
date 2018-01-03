@@ -9,7 +9,7 @@ $(document).ready(function(){
 // adaptiveHeight: true,
 accessibility: true,
 dots: true,
-// centerMode: true,
+centerMode: true,
 variableWidth: true
 });
 });

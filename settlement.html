@@ -28,6 +28,8 @@
   <link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
 
   <script src="js/masonry.pkgd.min.js"></script>
+<script src="https://cdn.plyr.io/2.0.18/plyr.js"></script>
+
   <link rel="stylesheet" href="css/timeline.css">
 
 
@@ -41,6 +43,7 @@
 
   <!-- drawer.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+  <link rel="stylesheet" href="https://cdn.plyr.io/2.0.18/plyr.css">
 
 
 </head>
@@ -141,27 +144,44 @@
   </div>
 </div>
 
+  <div id="audio" class="row">
+    <div class="col-3">
+      <h3>Audio Snippet:</h3>
+    </div>
+    <div class="col-9">
+    <audio controls>
+      <source id="audiosrc" type="audio/mp3">
+    </audio>
+    </div>
+  </div>
+
 </div>
 
 <div id="place" class="container section">
-  <div class="row your-class">
+  <div class="your-class">
     <div>
       <img id="sk1" class="wide"  alt="">
+      <div id="sk1txt" class="center normal-text phototxt"></div>
     </div>
     <div>      
       <img id="sk2" class="wide" alt="">
+      <div id="sk2txt" class="center normal-text phototxt"></div>
     </div>
     <div>
       <img id="sk3" class="wide" alt="">
+      <div id="sk3txt" class="center normal-text phototxt"></div>
     </div>
     <div>
      <img id="sk4" class="wide"  alt="">
+    <div id="sk4txt" class="center normal-text phototxt"></div>
    </div>
    <div>
      <img id="plan" class="wide"  alt="">
+      <div id="plntxt" class="center normal-text phototxt"></div>
    </div>
    <div>
      <img id="section" class="wide"  alt="">
+      <div id="sectxt" class="center normal-text phototxt"></div>
    </div>
  </div>
 </div>
@@ -185,6 +205,7 @@
 <script src="js/timeline.min.js"></script>
 <script src="js/lightgallery.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
+<script>plyr.setup();</script>
 
 <script type="text/javascript">
 
@@ -206,86 +227,101 @@
                   else if(page=="?shakur"){ i=8 }
                     else if(page=="?chattarpur"){ i=9 }
                       else if(page=="?dwarka"){ i=10 }
-                      else if(page=="?jaibharti"){ i=11 }
+                        else if(page=="?jaibharti"){ i=11 }
 
-                        $('#site-name').append(data.Sheet1[i].site);
-                      $('#heading').append(data.Sheet1[i].headline);
-                      $('#intro').append(data.Sheet1[i].intro);
-                      $("#comic").attr("src",data.Sheet1[i].comicurl);
-                      $("#sk1").attr("src",data.Sheet1[i].sketch1);
-                      $("#sk2").attr("src",data.Sheet1[i].sketch2);
-                      $("#sk3").attr("src",data.Sheet1[i].sketch3);
-                      $("#sk4").attr("src",data.Sheet1[i].sketch4);
-                      $("#section").attr("src",data.Sheet1[i].section);
-                      $("#plan").attr("src",data.Sheet1[i].plan);
-                      $("#g1").attr("src",data.Sheet1[i].gallery1);
-                      $("#g2").attr("src",data.Sheet1[i].gallery2);
-                      $("#g3").attr("src",data.Sheet1[i].gallery3);
-                      $("#gifintro").append(data.Sheet1[i].gifdesc);
-                      $("#gifurl").attr("src",data.Sheet1[i].gifurl);
-
-
-                      $("#tlh1").append(data.Sheet1[i].tlh1);
-                      $("#tld1").append(data.Sheet1[i].tld1);
-                      $("#tlh2").append(data.Sheet1[i].tlh2);
-                      $("#tld2").append(data.Sheet1[i].tld2);
-                      $("#tlh3").append(data.Sheet1[i].tlh3);
-                      $("#tld3").append(data.Sheet1[i].tld3);
-                      $("#tlh4").append(data.Sheet1[i].tlh4);
-                      $("#tld4").append(data.Sheet1[i].tld4);
-                      $("#tlh5").append(data.Sheet1[i].tlh5);
-                      $("#tld5").append(data.Sheet1[i].tld5);
-
-                      $("#tly1").attr("data-time",data.Sheet1[i].tly1);
-                      $("#tly2").attr("data-time",data.Sheet1[i].tly2);
-                      $("#tly3").attr("data-time",data.Sheet1[i].tly3);
-                      $("#tly4").attr("data-time",data.Sheet1[i].tly4);
-                      $("#tly5").attr("data-time",data.Sheet1[i].tly5);
+                          $('#site-name').append(data.Sheet1[i].site);
+                        $('#heading').append(data.Sheet1[i].headline);
+                        $('#intro').append(data.Sheet1[i].intro);
+                        $("#comic").attr("src",data.Sheet1[i].comicurl);
+                        $("#sk1").attr("src",data.Sheet1[i].sketch1);
+                        $("#sk2").attr("src",data.Sheet1[i].sketch2);
+                        $("#sk3").attr("src",data.Sheet1[i].sketch3);
+                        $("#sk4").attr("src",data.Sheet1[i].sketch4);
+                        $("#section").attr("src",data.Sheet1[i].section);
+                        $("#plan").attr("src",data.Sheet1[i].plan);
+                        $("#g1").attr("src",data.Sheet1[i].gallery1);
+                        $("#g2").attr("src",data.Sheet1[i].gallery2);
+                        $("#g3").attr("src",data.Sheet1[i].gallery3);
+                        $("#gifintro").append(data.Sheet1[i].gifdesc);
+                        $("#gifurl").attr("src",data.Sheet1[i].gifurl);
 
 
-                      $("#char1img").attr("src",data.Sheet1[i].char1img);
-                      $("#char1name").append(data.Sheet1[i].char1name);
-                      $("#char1txt").append(data.Sheet1[i].char1desc);
+                        $("#tlh1").append(data.Sheet1[i].tlh1);
+                        $("#tld1").append(data.Sheet1[i].tld1);
+                        $("#tlh2").append(data.Sheet1[i].tlh2);
+                        $("#tld2").append(data.Sheet1[i].tld2);
+                        $("#tlh3").append(data.Sheet1[i].tlh3);
+                        $("#tld3").append(data.Sheet1[i].tld3);
+                        $("#tlh4").append(data.Sheet1[i].tlh4);
+                        $("#tld4").append(data.Sheet1[i].tld4);
+                        $("#tlh5").append(data.Sheet1[i].tlh5);
+                        $("#tld5").append(data.Sheet1[i].tld5);
+
+                        $("#tly1").attr("data-time",data.Sheet1[i].tly1);
+                        $("#tly2").attr("data-time",data.Sheet1[i].tly2);
+                        $("#tly3").attr("data-time",data.Sheet1[i].tly3);
+                        $("#tly4").attr("data-time",data.Sheet1[i].tly4);
+                        $("#tly5").attr("data-time",data.Sheet1[i].tly5);
 
 
-                      $("#char2img").attr("src",data.Sheet1[i].char2img);
-                      $("#char2name").append(data.Sheet1[i].char2name);
-                      $("#char2txt").append(data.Sheet1[i].char2desc);
-
-                      $("#char3img").attr("src",data.Sheet1[i].char3img);
-                      $("#char3name").append(data.Sheet1[i].char3name);
-                      $("#char3txt").append(data.Sheet1[i].char3desc);
-
-                      if (data.Sheet1[i].char1img==null) {
-                        $("#people").remove();
-                      }
+                        $("#char1img").attr("src",data.Sheet1[i].char1img);
+                        $("#char1name").append(data.Sheet1[i].char1name);
+                        $("#char1txt").append(data.Sheet1[i].char1desc);
 
 
-                      if (data.Sheet1[i].gifurl==null) {
-                        $("#gifsec").remove();
-                      }
+                        $("#char2img").attr("src",data.Sheet1[i].char2img);
+                        $("#char2name").append(data.Sheet1[i].char2name);
+                        $("#char2txt").append(data.Sheet1[i].char2desc);
 
-                      if (data.Sheet1[i].tlh1==null) {
-                        $("#history").remove();
-                      }
+                        $("#char3img").attr("src",data.Sheet1[i].char3img);
+                        $("#char3name").append(data.Sheet1[i].char3name);
+                        $("#char3txt").append(data.Sheet1[i].char3desc);
 
-                      if (data.Sheet1[i].comicurl==null) {
-                        $("#process").remove();
-                      }
+                        $("#audiosrc").attr("src",data.Sheet1[i].audio);
 
-                      if (data.Sheet1[i].sketch1==null) {
-                        $("#place").remove();
-                      }
+                        // $("#sk1txt").append(data.Sheet1[i].sketch1txt);
+                        // $("#sk2txt").append(data.Sheet1[i].sketch2txt);
+                        // $("#sk3txt").append(data.Sheet1[i].sketch3txt);
+                        // $("#sk4txt").append(data.Sheet1[i].sketch4txt);
 
-                      $(document).ready(function() {
-                        $('#fullpage').fullpage({
-                          navigation: true,
-                          navigationPosition: 'right',
-                          navigationTooltips: ['Introduction','Eviction Process','History','People','Place','Gallery'],
-                          showActiveTooltip: true});
+                        // $("#sectxt").append(data.Sheet1[i].sectiontxt);
+                        // $("#plntxt").append(data.Sheet1[i].plantxt);
+
+
+                        if (data.Sheet1[i].char1img==null) {
+                          $("#people").remove();
+                        }
+
+                        if (data.Sheet1[i].audio==null) {
+                          $("#audio").remove();
+                        }
+
+
+                        if (data.Sheet1[i].gifurl==null) {
+                          $("#gifsec").remove();
+                        }
+
+                        if (data.Sheet1[i].tlh1==null) {
+                          $("#history").remove();
+                        }
+
+                        if (data.Sheet1[i].comicurl==null) {
+                          $("#process").remove();
+                        }
+
+                        if (data.Sheet1[i].sketch1==null) {
+                          $("#place").remove();
+                        }
+
+                        $(document).ready(function() {
+                          $('#fullpage').fullpage({
+                            navigation: true,
+                            navigationPosition: 'right',
+                            navigationTooltips: ['Introduction','Eviction Process','History','People','Place','Gallery'],
+                            showActiveTooltip: true});
+                        });
                       });
-                    });
-                  </script>
+                    </script>
 
-                  <script src="js/site.js"></script>
-                  </html>
+                    <script src="js/site.js"></script>
+                    </html>
