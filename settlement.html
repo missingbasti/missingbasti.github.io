@@ -73,16 +73,16 @@
   </nav>
 
   <div id="fullpage">
-    <div class="container twelve section">            
+    <div class="container twelve section" data-tooltip="Introduction">            
      <h1 id="heading"></h1>
      <p id="intro"></p>
      <p>-<br> A story from <a id="site-name" href="" title=""></a></p>
    </div>
-   <div id="process" class="container twelve section">
+   <div id="process" class="container twelve section" data-tooltip="Eviction Process">
     <img id="comic" style="width: 100%" /> 
   </div>
 
-  <div id="history" class="container section">
+  <div id="history" class="container section" data-tooltip="History">
     <div class="row">        
      <div class="col-8">
        <div class="timeline-container ">
@@ -104,7 +104,7 @@
   </div>
 </div>
 
-<div class="container section" id="people">
+<div class="container section" id="people" data-tooltip="People">
 
   <div class="row">
     <div class="char-slider">
@@ -157,7 +157,7 @@
 
 </div>
 
-<div id="place" class="container section">
+<div id="place" class="container section" data-tooltip="Place">
   <div class="your-class">
     <div>
       <img id="sk1" class="wide"  alt="">
@@ -185,7 +185,7 @@
    </div>
  </div>
 </div>
-<div id="gallery" class=" section">
+<div id="gallery" class=" section" data-tooltip="Gallery">
   <div class="container grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 317, "gutter":3 }'>
     <div class="grid-item zoom"><img id="g1" src=""/></div>
     <div class="grid-item zoom"><img id="g2" src=""/></div>
@@ -317,7 +317,6 @@
                           $('#fullpage').fullpage({
                             navigation: true,
                             navigationPosition: 'right',
-                            navigationTooltips: ['Introduction','Eviction Process','History','People','Place','Gallery'],
                             showActiveTooltip: true});
                         });
                       });
