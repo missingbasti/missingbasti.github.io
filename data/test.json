@@ -38,7 +38,16 @@
             "tly4": "2011",
             "tlh5": "Fight for survival continues",
             "tld5": "No stay order given and the people are restricted to rebuild their shops and houses due to continuous police petrolling.",
-            "tly5": "2017"
+            "tly5": "2017",
+            "char1img": "img/pul_mithai/mangala.jpg",
+            "char1name": "MANGALA. From Darbhanga (Bihar)",
+            "char1desc": "Still recovering from the loss of her husband’s death, Mangala has geared up to fight a new war with the eviction, rains, and winter. All her belongings are ruined by rain and children dropped out of school. She complains about the Railway police confiscating their belongings and not reluctant on returning it back.",
+            "char2img": "img/pul_mithai/Mariam.jpg",
+            "char2name": "MARIAM. From Bhagalpur (Bihar)",
+            "char2desc": "“I got really scared when I heard the noises at 07:00 am in the morning. Not informed about the eviction, I had no option to save my belongings as I was removing my children from the affected spot.” She has already submitted a copy of her Aadhar card and voter Id to the activists demanding aid and a stay order.",
+            "char3img": "img/pul_mithai/Subodh.jpg",
+            "char3name": "SUBODH",
+            "char3desc": "Subodh points out to a burst water pipeline near the railway tracks, with a single stream of water spraying as the only source of water for 270 families in that area. Inaccessible public toilets (200 m away, across the railway tracks) are the reason people practice open defecation. He is thankful to the NGOs, who contribute to the education of the children in the Basti, although the number of dropouts is large every month."
         },
         {
             "site": "Kidwai Nagar",
@@ -317,7 +326,16 @@
             "tld4": "Numerous eviction notices were issued but no Eviction was done. In the the year 2015 (December) when 2nd eviction took place no one was ready as everyone thought it was like a boy who cried wolf.",
             "tly4": "2000",
             "tlh5": "Resettlement",
-            "tld5": "45 Households were resettled to Dwarka and remaining 70 Households are still living in Janpath in dilemma."
+            "tld5": "45 Households were resettled to Dwarka and remaining 70 Households are still living in Janpath in dilemma.",
+            "char1img": "img/janpath/pradhan.jpg",
+            "char1name": "Pradhan Janpath",
+            "char1desc": "Janpath lies in the most activate and important part of the city. This area gives people a lot of job opportunities. People living here don’t want to be resettled somewhere else.",
+            "char2img": "img/janpath/suresh.jpg",
+            "char2name": "Suresh",
+            "char2desc": "One-side travel from resettlement colony to janpath costs 80 rupees. People spend almost half of their monthly income in travelling. People are struggling",
+            "char3img": "img/janpath/madan.jpg",
+            "char3name": "Madan",
+            "char3desc": "Four people in a family of 7 members work but are not able to put up enough money to support their family. They cant afford to spend money for wedding in delhi, they go back to their village for the wedding."
         },
         {
             "site": "Shakur Basti",
